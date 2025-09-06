@@ -23,13 +23,13 @@ The pipeline is designed with **healthcare standards (FHIR, OMOP CDM)** in mind 
 ## Architecture
 ```mermaid
 flowchart LR
-  A[Simulated Clinical Sources\n(FHIR JSON, CSV)] -->|ADF / Function| B[Azure Data Lake Gen2\nBronze]
-  B --> C[Databricks / ADF\nTransform to Silver]
-  C --> D[Curated Gold Layer\nADLS / Delta Tables]
-  D --> E[Azure Synapse SQL\nCurated Warehouse]
-  E --> F[Power BI Reports\nVisual Analytics]
-  E --> G[CDS Engine\n(Arden/GEM Rules, CDS Hooks)]
+  A["Simulated Clinical Sources (FHIR JSON, CSV)"] -->|ADF / Function| B["Azure Data Lake Gen2 - Bronze"]
+  B --> C["Databricks / ADF - Transform to Silver"]
+  C --> D["Curated Gold Layer - ADLS / Delta Tables"]
+  D --> E["Azure Synapse SQL - Curated Warehouse"]
+  E --> F["Power BI Reports - Visual Analytics"]
+  E --> G["CDS Engine (Arden/GEM Rules, CDS Hooks)"]
 
   subgraph Governance_and_Security
-    B & C & D & E --> H[Purview\nMonitor\nKey Vault\nRBAC]
+    B & C & D & E --> H["Purview / Monitor / Key Vault / RBAC"]
   end
