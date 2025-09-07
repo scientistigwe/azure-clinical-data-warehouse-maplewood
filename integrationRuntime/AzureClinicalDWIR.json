@@ -1,0 +1,7 @@
+{
+	"name": "AzureClinicalDWIR",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "This is a self-hosted integration runtime in Azure Data Factory used to securely connect on-premises (in this case, local data sources) to the cloud. It enables the ingestion of clinical and administrative datasets into ADLS Gen2 for downstream ETL and analytics."
+	}
+}
