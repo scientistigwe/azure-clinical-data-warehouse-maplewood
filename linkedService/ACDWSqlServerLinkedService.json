@@ -1,0 +1,28 @@
+{
+	"name": "ACDWSqlServerLinkedService",
+	"properties": {
+		"description": "ACDWSqlServerLinkedService – Establishes a secure connection from Azure Data Factory to the SQL Server source using stored credentials or service principal, enabling pipelines to read/write data for ingestion and transformation.",
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-1PK2BM8\\SQLEXPRESS",
+			"database": "azure_clinical_data_warehouse",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "mercy",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "password"
+			}
+		},
+		"connectVia": {
+			"referenceName": "AzureClinicalDWIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
