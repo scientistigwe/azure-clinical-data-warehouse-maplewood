@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-azure-clinical-dw-dev"
+		},
+		"ACDWMongoDbLinkedService_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorageLinkedService_accountKey": {
+			"value": ""
+		},
+		"ACDWMongoDbLinkedService_properties_typeProperties_database": {
+			"value": "azure_clinical_data_warehouse"
+		},
+		"ACDWSqlServerLinkedService_properties_typeProperties_server": {
+			"value": "DESKTOP-1PK2BM8\\SQLEXPRESS"
+		},
+		"ACDWSqlServerLinkedService_properties_typeProperties_database": {
+			"value": "azure_clinical_data_warehouse"
+		},
+		"ACDWSqlServerLinkedService_properties_typeProperties_userName": {
+			"value": "mercy"
+		},
+		"AzureDataLakeStorageLinkedService_properties_typeProperties_url": {
+			"value": "https://sazureclinicaldw.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://kvAzureClinicalDW.vault.azure.net/"
+		},
+		"AzureKeyVaultLinkedService_properties_typeProperties_baseUrl": {
+			"value": "https://kvAzureClinicalDW.vault.azure.net/"
+		}
+	}
+}
