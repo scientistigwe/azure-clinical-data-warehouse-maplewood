@@ -1,0 +1,2126 @@
+PatientID,InsuranceType,Region,EnrollmentDate
+PAT000001,Private,North Yorkshire,2013-03-10T00:00:00
+PAT000002,Public,Denbighshire,16/03/2024
+PAT000003,Public,tyne and wear,2018-10-10
+PAT000004,None,surrey,30-Dec-2011
+PAT000005,None,Wiltshire,2020-07-25
+PAT000006,,west sussex,20-Mar-2012
+pat000007,Public,South Yorkshire,09/02/2018
+PAT000008,Public,North Ayrshire,
+PAT000009,Public,Perth and Kinross	,10-Jan-2019
+,None,,20/05/2018
+,None,,20/05/2018
+PAT000011,PRIVATE,Wiltshire,2012-08-01
+PAT000012,Public,,2016-02-21T00:00:00
+PAT000013,None,Fermanagh,2014-07-05
+14.0,Private,Merionethshire,2017-11-09t00:00:00z
+PAT000015,Private,north ayrshire,2022-08-28T00:00:00
+PAT000016,None,Orkney Islands,
+PAT000017,None,Moray,18/09/2021
+PAT000018,Public,west yorkshire,2017-08-25T00:00:00
+PAT000019,Public,Shropshire,29-Dec-2014
+PAT000020,Public,Perth and Kinross,2019-11-12
+PAT000021,None,North Yorkshire,2014-02-13T00:00:00Z
+PAT000022,None,Cheshire,19/11/2021
+PAT000022,Public,North Ayrshire,2015-12-10T00:00:00Z
+PAT000023,,Dumfries and Galloway,
+PAT000024,Public,west lothian,
+pat000025,Public,Montgomeryshire,2013-10-30t00:00:00z
+pat000025,Public,Montgomeryshire,2013-10-30t00:00:00z
+PAT000026,Public,Worcestershire,05/04/2015
+27.0,Private,,
+PAT000028,Public,Dundee City,02/12/2017
+,None,Warwickshire,2016-04-18
+PAT000030,public,Aberdeenshire,2023-07-08T00:00:00
+PAT000031,Private,Fermanagh,2022-11-24T00:00:00
+PAT000032,Private,,14-Jan-2024
+PAT000033,Public,Derbyshire,2016-03-09
+PAT000034,,Gloucestershire,21-SEP-2020
+PAT000035,Public,Anglesey,2023-11-25t00:00:00z
+PAT000036,,Leicestershire,14/03/2017
+PAT000037,PUBLIC,Stirling,
+38.0,,East Lothian,2020-03-07t00:00:00
+PAT3038298,Private,,2012-12-31T00:00:00Z
+PAT000040,None,Falkirk,09-AUG-2018
+PAT000040,None,Falkirk,09-AUG-2018
+PAT000041,None,Shropshire,2014-05-10
+PAT000042,Public,South Ayrshire,07/12/2023
+PAT000043,Public, Clackmannanshire ,27/03/2022
+pat000044,,South Yorkshire,2010-09-27
+PAT000045,None,Lincolnshire,2016-11-02T00:00:00
+PAT000046,Public,,2016-06-06
+PAT000047,Public,Northamptonshire,2013-07-09
+PAT000048,None,Clackmannanshire,07-May-2016
+PAT000049,Public,North Ayrshire,09-Jun-2017
+PAT000050,,Aberdeenshire,2022-07-30
+,Private,Shropshire	,25/05/2014
+pat000052,None,Dundee City,16/07/2019
+PAT000053,Private,EAST DUNBARTONSHIRE,2017-08-23
+,Private,Monmouthshire,2017-07-14
+PAT000055,Private,Lincolnshire	,19/07/2018
+,None,South Lanarkshire,28-Apr-2024
+PAT000057,None,Worcestershire,17/02/2023
+,None,glamorgan,20181118.0
+PAT000058,None,City of Edinburgh,11/05/2023
+PAT000059,None,CAMBRIDGESHIRE,17/08/2018
+PAT000060,Public,West Midlands,
+pat000061,None,perth and kinross,2020-05-24
+pat000062,None,Gloucestershire,2023-01-14T00:00:00Z
+PAT000063,Public,Norfolk,2015-12-20T00:00:00Z
+PAT000064,None,Perth and Kinross,2017-06-20T00:00:00Z
+PAT000065,Public,,2023-07-14T00:00:00
+PAT000066,PRIVATE,Monmouthshire,07-Jul-2011
+PAT000067,Private,Argyll and Bute,23-Jul-2015
+PAT000067,Private  ,Argyll and Bute,23-Jul-2015
+PAT000068,Private,Cheshire,2014-10-30T00:00:00
+,Public,Lancashire,2020-08-15
+PAT000070,private, cleveland ,2024-03-18
+PAT000071,, West Yorkshire ,24-Nov-2023
+PAT000072,Private, Inverclyde ,11/12/2022
+73.0,None,Derry and Londonderry	,2016-12-03T00:00:00
+pat000074,Public,Glasgow City,2022-07-15
+PAT000075,Private,,17/01/2020
+PAT000076,Private,Somerset,2011-08-17
+PAT000077,Private, Cheshire ,2017-10-21T00:00:00Z
+PAT000078,Private,West Lothian,2013-02-25
+PAT000079,Public,Derry and Londonderry,2014-02-19
+PAT000080,Private,Northamptonshire,28/01/2013
+PAT000081,None,Highland,04/04/2018
+pat000082,None,Moray,09/02/2019
+PAT000083,Public,Caernarvonshire,05/10/2017
+PAT000083,Public,Caernarvonshire,05/10/2017
+PAT000084,None,Tyne and Wear,02-feb-2019
+PAT000085,Public,Falkirk,2017-07-20
+PAT000086,Public,Perth and Kinross,2011-03-20T00:00:00
+PAT000087,private,Northamptonshire,2021-05-22t00:00:00
+PAT000088,None,Flintshire,2013-07-02
+PAT000089,private,Down,28/12/2021
+PAT000090,Public,West Midlands,2023-07-07T00:00:00Z
+,Private,Hertfordshire,14/01/2011
+PAT000091,Public,cleveland,2023-09-16
+PAT000092,public,Greater London,17/11/2011
+,None,Antrim,2018-02-21
+PAT000094,Public,,2023-02-23
+PAT000095,Private,Renfrewshire,19/11/2012
+PAT000096,None,,17/09/2013
+PAT000097,Public, Dumfries and Galloway ,2011-09-06
+PAT000098,Public,,2017-12-09
+PAT000099,Public,Suffolk,2021-10-22
+PAT000100,Public,South Ayrshire,
+PAT000101,None,,30-Aug-2012
+PAT000102,None,Derbyshire,2020-02-20T00:00:00Z
+PAT000103,Private,,2013-11-11
+PAT000104,Public,Buckinghamshire,2024-07-19
+PAT6524915,Public,Kent,
+PAT000106,,Nottinghamshire	,2018-08-29T00:00:00
+PAT000107,Private,Stirling,27-Aug-2022
+PAT000108,None,Somerset,2016-07-30
+PAT000109,None,Carmarthenshire,
+PAT000110,Private,City of Edinburgh,2015-03-04
+PAT000111,None,Hampshire,2023-01-30
+PAT7139933,,Breconshire,23/05/2013
+PAT000113,Private,Cheshire,20/08/2013
+,PRIVATE,Fife,11/05/2015
+115.0,Public,Tyrone	,2011-05-20T00:00:00
+PAT000116,None,Flintshire,20240518.0
+PAT000117,None,Down,15-Jul-2022
+,Private,Leicestershire	,
+PAT000119,None,breconshire,04-Oct-2023
+PAT000120,none,Argyll and Bute,
+121.0,Public,Oxfordshire,13-jan-2014
+PAT000122,Private,,25/09/2015
+,Public,West Yorkshire,2012-02-16
+PAT000123,,Fermanagh,30-Jun-2020
+124.0,Public,Falkirk,2014-11-09
+PAT000125,None,Pembrokeshire,2024-01-07T00:00:00
+PAT000126,None,East Ayrshire,08-Aug-2012
+PAT000127,Private, Durham ,27-Aug-2014
+pat000128,private,,17/08/2023
+pat000128,none,West Berkshire,2022-11-16
+PAT000129,Public,Northamptonshire,2017-12-16
+PAT5570839,PUBLIC,Tyrone,04-Aug-2020
+PAT000131,Private,Eilean Siar,2011-04-13
+PAT000132,Public,Merseyside,2011-10-02T00:00:00
+PAT000133,Private,dundee city,2015-12-15
+PAT000134,None,Caernarvonshire,20/12/2019
+PAT000134,None,Caernarvonshire,20/12/2019
+PAT000135,Private,Argyll and Bute,2018-12-24
+PAT000136,None,South Ayrshire,
+,Private,south lanarkshire,24-Apr-2012
+pat000138,Public,Falkirk,2012-06-08T00:00:00Z
+PAT9728674,None,INVERCLYDE,2023-01-09T00:00:00
+,None,Fife,18/04/2019
+PAT000141,Private,Falkirk,2021-12-16
+PAT000142,None,Dorset,
+PAT000143,Private,Gloucestershire,
+PAT000144,Private,Orkney Islands,
+PAT000145,Private,Midlothian,12/01/2016
+PAT000146,None,Anglesey,08-JAN-2016
+PAT000147,Private,North Yorkshire,2023-10-23
+PAT000148,Private,Down,18/05/2022
+,None,Shetland Islands,17-Dec-2019
+PAT000150,Private,Montgomeryshire	,06-May-2017
+151.0,Public,,2010-11-01T00:00:00
+PAT000152,private,Norfolk,2018-03-19T00:00:00Z
+PAT000153,Public,Monmouthshire,04/12/2015
+pat000154,Public,Oxfordshire,2014-06-21
+PAT000155,,Derbyshire,2018-03-12
+pat000156,Private,Stirling,2014-09-21
+PAT000157,Private,Breconshire,27/04/2015
+PAT9120896,None,Moray	,2023-02-14T00:00:00Z
+PAT000159,Private,worcestershire,
+PAT000160,Public,Highland,2017-08-19T00:00:00Z
+161.0,Public,Gloucestershire,24-Jan-2017
+PAT000162,None,Dorset,
+PAT000163,Private,Cardiganshire,2014-09-08T00:00:00Z
+PAT000164,Private,Breconshire,31-Aug-2023
+PAT000165,Public,,13-Jun-2019
+PAT000166,None,Derry and Londonderry,02-Mar-2013
+PAT000167,,Tyrone,2015-12-24
+pat000168,None,North Lanarkshire,06/11/2020
+PAT000169,Public,South Yorkshire,2021-01-03T00:00:00
+PAT000170,Public,Shropshire,
+PAT000171,Private,Flintshire,25-Feb-2022
+PAT000172,Private,Oxfordshire,2015-07-14
+PAT000173,Private,Fermanagh,27-Mar-2012
+PAT000174,Private,Dundee City	,2022-04-15T00:00:00
+PAT000175,Public,city of edinburgh	,2015-02-11t00:00:00
+pat000176,Public,Somerset,2021-05-13T00:00:00
+PAT000177,Private,Denbighshire,16/03/2024
+PAT000178,Public,East Ayrshire,
+PAT3015999,Public,Dorset,01-Dec-2017
+PAT000180,PRIVATE,Durham,2011-09-24
+pat000181,Public,Cumbria,08-Dec-2014
+pat000182,None,Dumfries and Galloway	,2022-02-13
+PAT000183,Public,Hertfordshire,25/03/2023
+PAT000184,Private,Derry and Londonderry,2014-06-23T00:00:00Z
+PAT000185,Private,Gloucestershire,2019-04-16T00:00:00
+PAT1156077,None,Antrim,2015-05-29
+pat000187,Private,Monmouthshire,26/06/2015
+,Private,Orkney Islands,2016-08-04T00:00:00
+PAT2146040,None,City of Edinburgh	,2022-01-05T00:00:00
+PAT000190,Private,,2013-05-28T00:00:00
+pat000191,Public,Devon,2013-02-12
+PAT000192,Private,Aberdeen City,18/01/2020
+PAT000193,None,Dundee City,2020-08-02
+194.0,Public,Scottish Borders,20-Apr-2018
+PAT000195,Public,Cambridgeshire,2023-05-02
+PAT000196,Private,Dorset,10/07/2022
+197.0,Private,Caernarvonshire,
+PAT000198,Private,Dorset,2018-03-20
+PAT4679097,None,Falkirk,13-Jan-2015
+PAT000200,None,Greater London,2016-08-01T00:00:00Z
+PAT000201,Public,GREATER LONDON,2018-11-01T00:00:00
+PAT000202,None,East Renfrewshire,2017-02-07
+PAT000203,None, Cheshire ,03/04/2014
+PAT000204,Private,Carmarthenshire,2024-01-17T00:00:00
+PAT000205,,Kent,12/12/2015
+PAT000206,,,07/08/2013
+PAT000207,Public,Cheshire,2011-08-24
+PAT000208,Public,Moray,
+PAT000209,Private,Highland,2012-08-09T00:00:00Z
+PAT000210,Public,Buckinghamshire,21/08/2013
+PAT000211,None,Gloucestershire,2021-04-14T00:00:00Z
+PAT000212,None,Perth and Kinross,2019-04-20
+PAT000213,None,South Lanarkshire,2011-08-27T00:00:00
+PAT000214,Private,Worcestershire,2023-10-25T00:00:00Z
+PAT000215,none,Shetland Islands,
+,None,Midlothian,19/02/2013
+pat000217,public,East Ayrshire	,2014-04-11T00:00:00
+PAT000218,Public,KENT,2020-07-30
+pat000219,,Essex,04/12/2017
+PAT000220,,,2018-06-27T00:00:00Z
+PAT000221,Private,Cumbria,2011-10-19
+PAT000221,Public,East Dunbartonshire,15-Mar-2018
+PAT000222,Private,Falkirk,05-Jan-2012
+PAT000223,Private,Highland,06-Sep-2024
+PAT000224,None,Worcestershire,2014-12-23
+PAT000225,Private,Dundee City,2018-11-20T00:00:00Z
+PAT000226,none,Glamorgan,08/04/2024
+PAT000227,None,Perth and Kinross,2019-12-06
+PAT000228,Public,,20221102.0
+PAT000229,none,Denbighshire,17122015.0
+PAT000230,None, Greater Manchester ,09/01/2012
+PAT000231,PUBLIC,Essex,2017-08-17
+PAT000232,Public,Buckinghamshire,2022-12-13
+PAT000233,Public,North Ayrshire,2021-05-07T00:00:00Z
+PAT000234,Public,Eilean Siar,2023-03-22T00:00:00Z
+PAT000235,Public,Carmarthenshire,11/03/2021
+PAT000236,Private,Warwickshire,04/11/2010
+PAT000237,private,Northumberland,2014-03-31T00:00:00Z
+PAT4144989,Private,Inverclyde,232015.0
+239.0,None,Derry and Londonderry,6052016.0
+240.0,PUBLIC,Leicestershire,
+PAT000241,None,Merionethshire,2019-04-14T00:00:00
+PAT000241,None,Merionethshire,2019-04-14T00:00:00
+PAT000242,Public,,2018-10-25
+PAT000242,Public,,2018-10-25
+pat000243,None,Aberdeenshire,20/01/2013
+PAT000244,Private,Lancashire,2012-10-07
+PAT000245,Private,Aberdeen City,2023-11-19
+PAT000246,Public,northamptonshire,
+247.0,Public,Dumfries and Galloway,2021-05-15T00:00:00
+PAT000248,None,Greater London,2024-06-21
+PAT7184759,None,Cardiganshire,20140905000000.0
+PAT000250,Public,East Ayrshire,05-Nov-2016
+PAT000251,Private,Somerset,2019-09-04
+PAT000252,Public,BEDFORDSHIRE,
+PAT000253,Public,,2023-01-28
+,Public,Nottinghamshire,2018-03-08T00:00:00
+PAT000255,Private, Caernarvonshire ,04-May-2014
+PAT000256,Private,East Sussex,2012-12-29T00:00:00
+PAT000257,Private,Highland,18/04/2022
+PAT000258,None,Northamptonshire,
+pat000259,,Clackmannanshire,23/07/2018
+PAT000260,None,Kent,23-Jan-2017
+pat000261,Private,Eilean Siar,2014-07-19T00:00:00
+PAT000262,None,Kent	,21-Jan-2021
+PAT000263,Private,Surrey,17-Mar-2012
+PAT000264,None,Glamorgan,20211026.0
+PAT000265,PRIVATE,Montgomeryshire,2023-07-15T00:00:00Z
+PAT000266,Public,,03/08/2016
+,Private,Cambridgeshire	,28/11/2019
+PAT000268,Public,Essex,20121113000000.0
+PAT000269,private,Dumfries and Galloway,24-Nov-2018
+PAT000270,None,Merionethshire,2024-01-13
+PAT000271,None,Falkirk,2017-11-12T00:00:00Z
+PAT000272,Public,Falkirk,26/01/2019
+pat000273,Private,Fermanagh,2023-09-30T00:00:00
+PAT000274,Private,fife,
+PAT000275,Public, Dundee City ,02-Nov-2023
+PAT000276,Private,Devon,2012-08-06T00:00:00Z
+,Private,Breconshire,22/08/2021
+PAT000278,None,Somerset,2019-06-20T00:00:00Z
+PAT000279,None,,27-Jul-2020
+,, Perth and Kinross ,21-aug-2023
+PAT000281,Public,Dumfries and Galloway,09/07/2018
+pat000282,None,Tyrone,12/11/2019
+PAT000283,None,Wiltshire,06-Apr-2019
+PAT000284,Private,West Berkshire,2018-02-20
+,Public, City of Edinburgh ,12-Nov-2018
+pat000286,Public,Argyll and Bute,27/03/2022
+PAT000287,Public,Caernarvonshire,2015-08-14T00:00:00
+,,South Lanarkshire	,2015-11-27
+,Private,Eilean Siar,30/08/2023
+PAT000290,private,Eilean Siar,2012-11-17
+PAT000290,Public,,2015-05-29T00:00:00
+PAT000291,None,West Berkshire,30-Apr-2012
+pat000292,None,Cardiganshire	,10/07/2015
+PAT000293,,West Sussex,2015-08-18T00:00:00
+PAT000294,Public,Caernarvonshire,
+PAT000295,Private,Somerset	,2015-11-05
+PAT000296,Public,East Dunbartonshire,07/10/2017
+PAT000296,Public,East Dunbartonshire.,07/10/2017
+PAT000297,Public, Surrey ,
+PAT000298,Private,North Yorkshire,2023-11-16T00:00:00Z
+PAT000299,Public,Falkirk,
+PAT000300,PUBLIC,Tyrone,2018-03-09T00:00:00Z
+pat000301,None,Antrim,
+PAT000302,None,,2021-03-01
+PAT000303,None,Cleveland,14-aug-2017
+pat000304,Private,,
+pat000304,Public,,
+PAT000305,None,Durham,
+pat000306,Public,Denbighshire,16/02/2012
+PAT000307,Public,,2020-04-02
+pat000308,private,dundee city,2023-12-18T00:00:00Z
+PAT000309,Public,Flintshire,2019-05-09
+PAT000310,Public,West Sussex,2011-11-12T00:00:00Z
+PAT4011298,NONE,West Berkshire,2018-01-09T00:00:00Z
+PAT000311,None,Down,2024-03-02
+PAT000312,Public,Cheshire,2021-05-11T00:00:00Z
+,Private,Essex,25/12/2016
+PAT000314,None,Tyrone,2011-08-22
+PAT000315,Private,Devon,10-Apr-2011
+PAT000316,Private,Durham,02/06/2013
+PAT000316,Public,Anglesey,
+PAT000317,Public,West Yorkshire,2017-02-16
+PAT000317,private,Carmarthenshire,20240316000000.0
+PAT000318,Private,Scottish Borders,2019-11-12T00:00:00Z
+PAT000319,NONE, Denbighshire ,2023-01-05T00:00:00
+PAT000320,Private,,2013-05-13
+,Public,Greater London,04-Jan-2024
+,Public,Kent,2020-06-05
+PAT000323,None,Cumbria,13-Jul-2016
+PAT000324,,Radnorshire,17/09/2014
+,,Kent,29/12/2010
+PAT000326,Private,Hampshire,10102023.0
+PAT000327,Private,Armagh,2015-11-09t00:00:00
+PAT000328,PUBLIC,Radnorshire,
+PAT000329,Private,Devon	,30/10/2021
+,Private,Nottinghamshire,2017-08-16
+PAT000331,,Buckinghamshire,04-Jan-2018
+331.0,None, Antrim ,25-Oct-2022
+332.0,Public,,2014-04-16T00:00:00Z
+PAT000333,none,South Lanarkshire,18-Apr-2014
+,Public,South Lanarkshire,23/07/2015
+,None,west lothian,2019-06-20T00:00:00Z
+pat000336,None,Suffolk,30-Apr-2021
+pat000336,None,Suffolk,30-Apr-2021
+337.0,Public,Highland,20230510000000.0
+,None,Devon,20-Jan-2015
+339.0,Private,Armagh,2023-11-27T00:00:00Z
+PAT000340,None,East Ayrshire,01-Apr-2021
+pat000341,None,northamptonshire,04/04/2022
+PAT000342,Public,Tyrone,2023-02-05T00:00:00Z
+PAT000343,public,West Sussex,29-Mar-2018
+PAT000344,,,2014-08-05T00:00:00Z
+PAT000345,public,Merionethshire,2021-11-21
+PAT000346,Private,Bedfordshire,05-Mar-2017
+PAT000347,private,Anglesey,2015-01-03
+PAT000348,None,Essex,2021-01-03
+pat000349,None,Perth and Kinross,2022-02-10T00:00:00
+pat000350,None,Wiltshire,2013-11-15
+PAT000351,Public,,2024-06-11
+PAT000352,Private,South Lanarkshire,25/01/2011
+PAT000353,Private, Falkirk ,2023-03-08
+PAT000354,Private,,31/10/2011
+355.0,None,,2016-10-06
+PAT000356,None,Radnorshire,17/02/2018
+PAT000357,Public,South Yorkshire,2011-04-20
+PAT000358,Private,,
+,Private,Greater London,2022-07-29t00:00:00
+pat000360,Private,Lincolnshire,13/11/2016
+PAT000361,none,Gloucestershire,2019-11-09T00:00:00
+PAT000362,Private,east sussex,23/06/2012
+PAT000363,Public,Shropshire,2024-04-12
+PAT000364,None,Worcestershire,2014-01-31
+PAT000365,Private,South Ayrshire,2023-06-16
+PAT000366,None,Tyrone,2019-05-02
+PAT000367,None,North Yorkshire,13/06/2017
+PAT000367,Private,Greater Manchester,2015-06-14T00:00:00Z
+,Private,Aberdeen City,14/09/2017
+PAT000369,NONE,Kent,22-Aug-2021
+PAT000369,Public,Norfolk,10-Sep-2016
+PAT000370,None,Lancashire,13/07/2023
+PAT000371,None,Glasgow City,20141211000000.0
+PAT000372,Private,Merseyside,
+PAT000373,Public,North Yorkshire	,14/01/2014
+,None,,2022-05-25
+PAT000375,None,West Dunbartonshire,04-Sep-2024
+,Private,Hertfordshire,2022-04-25T00:00:00Z
+PAT000377,Private,Durham,04/07/2016
+PAT000378,None,Radnorshire,2012-02-01T00:00:00
+PAT000379,Public,Carmarthenshire,20-Jan-2015
+pat000380,PUBLIC,Orkney Islands,06-Aug-2018
+PAT000381,None,West Sussex,23/09/2018
+382.0,,East Sussex,28-Feb-2018
+pat000383,Private,North Yorkshire,29-dec-2013
+pat000383,Private,North Yorkshire,29-dec-2013
+384.0,,,14/04/2015
+385.0,None,East Renfrewshire,2012-10-31
+,None,East Dunbartonshire,2019-05-08T00:00:00
+PAT000387,Public,East Sussex,2021-01-14T00:00:00Z
+PAT000388,none,South Ayrshire,2011-05-22t00:00:00
+PAT000389,Public,West Sussex	,2014-06-10
+PAT000390,None,Surrey,2018-07-31
+,Private, MONTGOMERYSHIRE ,21/05/2016
+PAT000392,Public,East Ayrshire,20-Nov-2019
+PAT000393,Public,Stirling,23/01/2014
+PAT000394,None,East Renfrewshire,01-Sep-2017
+PAT000395,None,CARDIGANSHIRE,2013-12-13
+396.0,Public,Greater Manchester,08-Apr-2013
+PAT000397,None,,2020-11-06
+,Private,East Sussex,02/09/2012
+PAT000399,Private,South Lanarkshire	,2023-09-15
+PAT000400,Private,Wiltshire,2019-08-06
+PAT000401,Private,,19/06/2021
+PAT000402,Private,Cleveland,12-Nov-2014
+PAT000402,Private,Cheshire,24-Jul-2019
+PAT000403,Public, Tyrone ,08/04/2016
+,Private,northamptonshire,24/12/2020
+PAT000405,Private,Carmarthenshire,2024-03-22
+406.0,None,Surrey,2010-10-15
+406.0,None,Surrey,2010-10-15
+pat000407,None,West Midlands,
+pat000408,None,Armagh,2016-07-22
+PAT000409,,,29-Dec-2019
+PAT000410,None,,04/07/2017
+PAT000411,Private,Orkney Islands,28122019.0
+PAT000412,public,Angus	,26-Sep-2013
+PAT000413,Public,Northamptonshire,29-Jul-2015
+PAT000414,Public,Greater London,17-NOV-2013
+pat000415,Public,Bedfordshire,2010-11-10
+pat000415,None,Devon,05-Oct-2020
+PAT000416,None,South Lanarkshire,2020-04-18
+PAT000417,Private,Perth and Kinross,2023-01-14
+PAT000418,Private,Aberdeen City,2024-07-22
+PAT4011535,None,Worcestershire,12/09/2016
+PAT000420,Private,West Berkshire,09/07/2022
+PAT000421,Private,Midlothian,2018-08-21T00:00:00Z
+PAT000422,none,Highland	,2020-09-13
+PAT000423,Private,Surrey,2012-12-23
+424.0,Private,Argyll and Bute,14-Nov-2019
+,None,Nottinghamshire,
+,PUBLIC,Aberdeenshire,01-Apr-2015
+PAT000427,Private,Breconshire,2019-05-29
+PAT000428,Public,Caernarvonshire,2016-03-26T00:00:00Z
+PAT000429,none,West Berkshire,2023-07-07
+PAT000430,None,east lothian,2016-11-14
+PAT000431,None,Essex	,2011-11-15
+PAT000432,None,Breconshire,13/11/2017
+,NONE,Falkirk,27/04/2021
+PAT000434,NONE,Radnorshire,30-Oct-2013
+PAT000435,None,hertfordshire,28/06/2017
+PAT000436,None,Renfrewshire,26/04/2016
+PAT000437,None,Merseyside,10-Oct-2014
+PAT000438,None,,2021-01-15T00:00:00Z
+PAT000439,,Hertfordshire,2013-12-25T00:00:00Z
+PAT000440,Private,Renfrewshire,2015-07-10T00:00:00
+PAT000440,Public,ANGLESEY,2016-10-30
+PAT5134712,None,Monmouthshire,2014-10-26
+PAT000442,None,South Ayrshire,16012012.0
+,Private,Orkney Islands,2019-12-28
+PAT000444,Private,LANCASHIRE,2019-03-14T00:00:00Z
+PAT000445,Public,Clackmannanshire,262023.0
+pat000446,Private,Renfrewshire,2015-01-10
+PAT000446,Public,east dunbartonshire,29/04/2014
+PAT000447,None,Anglesey,2016-04-05T00:00:00
+PAT000448,,East Dunbartonshire,2011-09-02T00:00:00
+,Private,Carmarthenshire,
+PAT000450,Private,,09-Feb-2023
+PAT000451,Public,,2017-07-14T00:00:00
+PAT000452,Public,Stirling,2018-05-14T00:00:00
+PAT000453,Private,Nottinghamshire,14-Apr-2017
+454.0,Public,Scottish Borders,15-Jun-2012
+PAT000455,Public,cleveland,2015-05-31
+PAT000456,NONE,Aberdeenshire,2020-03-09T00:00:00
+PAT000457,Public,Flintshire,2019-01-30T00:00:00Z
+PAT000458,Private,,14-Sep-2021
+PAT000459,None,,2020-11-04T00:00:00
+460.0,None,Tyrone,2011-09-05
+PAT000461,None,Midlothian,14-May-2021
+PAT000461,None,Midlothian,14-May-2021
+pat000462,Private,Merionethshire,2017-02-03T00:00:00
+pat000462,Private,Anglesey,2016-05-22T00:00:00
+PAT000463,None,Cornwall,15/05/2017
+PAT000464,Public,Cheshire,20140902.0
+PAT000465,Public,West Berkshire,2021-10-28
+PAT000466,Public,North Yorkshire,20190821.0
+PAT000467,None,Renfrewshire,2017-02-04
+pat000468,,Derbyshire,27-Jan-2012
+PAT000469,Private, GLOUCESTERSHIRE ,19/05/2016
+PAT000470,None,Breconshire,26/04/2011
+PAT000471,Private,,2014-05-25
+PAT000472,Private,Surrey	,15-Oct-2017
+PAT000473,Private,Carmarthenshire,2011-05-14
+PAT000474,None,Somerset,2023-02-11
+PAT1601320,None,Cheshire,05-Sep-2021
+PAT000476,Public,Down,
+pat000477,Private,Hertfordshire,10-Sep-2020
+pat000477,Private,Hertfordshire,10-Sep-2020
+PAT000478,Private,Dundee City,2015-02-18T00:00:00
+PAT000479,None,Breconshire,2015-06-23T00:00:00Z
+PAT000480,Public,East Sussex,2016-05-08T00:00:00
+PAT000481,None,Eilean Siar,2014-05-18
+PAT000481,None,Eilean Siar,2014-05-18
+PAT000482,Public,Tyne and Wear,19-Feb-2024
+PAT000483,None,Northumberland	,03-Jun-2013
+,Public,Worcestershire,23/03/2013
+PAT000485,,Highland,282018.0
+PAT000486,Public,Kent,2013-12-06T00:00:00Z
+PAT000486,Public,Kent,2013-12-06T00:00:00Z
+PAT000487,Public,North Ayrshire,2019-11-24
+PAT000488,NONE,Falkirk,25-Aug-2021
+PAT000489,None,North Ayrshire,10/06/2016
+,None,Fife,2024-03-04T00:00:00Z
+pat000491,Private,,31-Oct-2023
+pat000491,Private,,31-Oct-2023
+,Private,Durham,2011-11-29T00:00:00
+PAT000493,PUBLIC,Northumberland,2017-01-17
+PAT000494,,Surrey,
+PAT000495,,West Dunbartonshire,19-May-2019
+PAT000496,Private,Dorset,2017-02-10
+PAT000496,Private,Dorset,2017-02-10
+PAT000497,None,Somerset,2017-08-29T00:00:00Z
+PAT000497,None,Nottinghamshire,01-Jun-2013
+498.0,None,Northumberland,2017-01-08T00:00:00
+PAT000499,Private,Pembrokeshire,2021-10-23T00:00:00
+PAT000500,Private,North Lanarkshire	,15-Dec-2015
+PAT000501,None,Merionethshire,2018-02-11
+PAT000502,Public,Dumfries and Galloway,2012-08-29T00:00:00
+PAT6859922,Private,Northumberland,2013-03-02
+PAT000504,Private,West Yorkshire,2014-01-16T00:00:00
+PAT000505,None,Merionethshire,19-Jul-2013
+PAT000506,Private,merionethshire,28/05/2011
+,None,Aberdeenshire,12/12/2010
+,Public,Breconshire,15-NOV-2010
+,private,Devon,2018-01-12T00:00:00
+PAT000510,None, WEST MIDLANDS ,10-Jul-2022
+,private, FIFE ,2021-08-16
+,Public,Shropshire,22/10/2022
+PAT000513,None,Highland,2020-10-26
+PAT000514,Public,,2020-09-05T00:00:00Z
+PAT000515,Public,Orkney Islands,09-APR-2020
+pat000516,Public,Oxfordshire,2015-01-02
+PAT000517,Private,Glasgow City,25/06/2023
+PAT000518,None,NORTHUMBERLAND	,22/12/2012
+PAT000519,Public,Shropshire,2022-10-28T00:00:00
+PAT000520,Private,Pembrokeshire,20130127.0
+PAT000520,Private,Pembrokeshire,20130127.0
+PAT000520,Private,CORNWALL	,2015-12-22T00:00:00Z
+PAT000521,private, Tyne and Wear ,2015-11-06T00:00:00Z
+PAT000522,,South Yorkshire	,15/03/2023
+PAT000523,Private,Dumfries and Galloway,2020-12-09T00:00:00
+PAT000524,,Midlothian,2016-08-02
+pat000525,None,Devon,2017-05-29
+PAT000526,None,,2015-05-25
+PAT000527,,Nottinghamshire,2022-12-14T00:00:00Z
+pat000528,Private,Inverclyde,2021-08-21
+PAT000529,,Suffolk,2011-03-12T00:00:00
+PAT000530,Private,Flintshire,2011-03-23T00:00:00
+PAT000531,Private,Cheshire,25-Aug-2011
+PAT1026885,NONE,Aberdeen City,05/04/2011
+pat000532,Public, East Ayrshire ,2022-09-18
+,Private,Kent,
+,Private,Kent,
+PAT000534,None,Kent,30-Jun-2014
+PAT000535,Private,Staffordshire,2016-06-23
+PAT000535,Public,East Dunbartonshire,28/10/2015
+,Public,Cambridgeshire,06/04/2012
+PAT000537,None,east dunbartonshire,2012-01-29t00:00:00
+pat000538,None,West Yorkshire,2018-11-28
+PAT000539,None,Glasgow City,2013-06-01T00:00:00Z
+PAT000539,None,Flintshire,25/09/2011
+PAT000540,Public,South Yorkshire,2023-09-01T00:00:00Z
+PAT000541,None,Renfrewshire,06-Nov-2010
+PAT000542,Private,,2011-09-23
+pat000543,Private,Glamorgan,2024-06-06t00:00:00z
+pat000544,Public,Cambridgeshire,2022-09-25
+PAT000545,None,Cumbria,16/06/2016
+PAT000546,None,Cambridgeshire,20/01/2019
+pat000547,none, Renfrewshire ,2018-06-20T00:00:00
+pat000548,Public,Surrey,05-Feb-2023
+PAT000549,NONE,Glamorgan,2011-12-06
+PAT000550,Public,,2022-05-11
+PAT000551,Private,Armagh,2022-08-07T00:00:00Z
+PAT000552,Public,Cornwall,
+PAT000553,PRIVATE,Perth and Kinross,2017-07-10T00:00:00Z
+PAT000554,Private,Kent,2012-04-05T00:00:00Z
+PAT000554,Private,Kent,2012-04-05T00:00:00Z
+PAT000555,Private,Clackmannanshire,27-Feb-2014
+PAT000556,PUBLIC,West Lothian,03-Oct-2023
+PAT000557,None,Glamorgan,21/02/2018
+PAT000558,Public,North Lanarkshire,2022-07-01T00:00:00
+PAT000558,Public,North Lanarkshire,2022-07-01T00:00:00
+pat000558,Private,Falkirk,2021-01-19
+PAT000559,None,West Yorkshire	,2012-07-07t00:00:00z
+PAT000560,None,Perth and Kinross,28-Apr-2019
+PAT3188977,Private,North Lanarkshire,10-Dec-2014
+PAT000562,None,Dumfries and Galloway,2022-10-17
+PAT000563,None,North Ayrshire,29-Apr-2018
+PAT000564,,Devon	,2014-12-07
+pat000565,None,Devon,2018-11-04
+PAT000566,PUBLIC,Clackmannanshire,2023-08-12T00:00:00Z
+PAT000567,None, OXFORDSHIRE ,
+PAT8594732,Private,Shetland Islands,18-Dec-2018
+PAT000569,None,Renfrewshire,02/02/2024
+PAT000570,None,,
+pat000571,Public,Northamptonshire,23/01/2021
+PAT000572,Private,Merionethshire,11/11/2017
+PAT000573,Public,Orkney Islands,20170621.0
+,,Flintshire,01-Apr-2019
+PAT000575,,Hertfordshire,2023-10-17T00:00:00Z
+pat000576,Public,Cornwall,04/02/2011
+577.0,,West Lothian,
+PAT000578,Private,DEVON,2021-06-10T00:00:00
+PAT000578,Private,DEVON,2021-06-10T00:00:00
+pat000578,None,flintshire,
+PAT000579,None,Essex,2021-09-14T00:00:00
+PAT000580,None,Argyll and Bute,2021-08-15
+PAT000581,none,Greater Manchester,14-oct-2012
+PAT000582,None,Gloucestershire,29/03/2011
+PAT000583,public,Somerset,16/08/2022
+PAT000584,Public,,
+585.0,PUBLIC,Leicestershire,26-Apr-2020
+pat000585,None,North Yorkshire,2023-09-12
+pat000586,Public, Northumberland ,11-Mar-2015
+PAT000587,Private,Nottinghamshire,15-Jul-2021
+PAT000588,Private,Dorset,18-May-2024
+PAT000589,None,Inverclyde	,2013-02-27
+PAT000590,,Bedfordshire,2018-01-15T00:00:00
+PAT000591,None,Tyrone,02/05/2012
+PAT000592,Private,Lancashire	,20-Sep-2019
+PAT000593,Public,stirling,21/10/2023
+PAT000594,None,Angus,2015-12-26
+,Private,Aberdeenshire,02/12/2014
+PAT000596,,East Lothian,2014-11-29T00:00:00Z
+PAT000597,Public,,
+pat000598,,Perth and Kinross,2014-12-09T00:00:00
+pat000599,Private,Armagh,2017-07-14T00:00:00
+pat000600,None,Antrim,24/10/2011
+PAT000601,None,Wiltshire,04/10/2015
+PAT000602,None, Down ,04/07/2019
+,Public,North Lanarkshire,2017-08-19T00:00:00Z
+PAT000604,Public,Cheshire,2023-05-17
+PAT000605,Public,South Yorkshire,12/03/2022
+PAT000606,Public,Greater Manchester,15-Sep-2018
+607.0,None,Bedfordshire,2013-04-24
+PAT000608,None,,02/02/2016
+PAT000609,Public,Greater Manchester,2021-08-19
+PAT000610,Private,Cumbria,30-Nov-2010
+PAT000611,Private,Cleveland,04-Dec-2020
+PAT000612,None, Scottish Borders ,2018-11-03T00:00:00
+,None,Durham	,2017-04-22
+PAT000614,Public,Merseyside,02/03/2011
+PAT000615,None,HERTFORDSHIRE,30/12/2021
+PAT000616,Private,City of Edinburgh,2015-06-04
+,Private,Eilean Siar,52014.0
+pat000618,None,East Dunbartonshire,18/03/2015
+PAT000619,None,hertfordshire	,2017-01-16T00:00:00
+PAT000620,Public,Glamorgan,19-Oct-2022
+,None,North Yorkshire,2011-07-13T00:00:00
+PAT000622,PUBLIC,Staffordshire,2015-02-24T00:00:00Z
+PAT000623,Public,Cambridgeshire,04/06/2019
+PAT000624,None,Greater Manchester,04/07/2015
+PAT000624,None,Greater Manchester,04/07/2015
+PAT000625,Private,,2024-01-04T00:00:00
+PAT000626,,Monmouthshire,22-Aug-2015
+PAT000627,None,Flintshire,14/01/2017
+PAT000628,Private,West Lothian,2022-02-25T00:00:00Z
+PAT000629,Public,Perth and Kinross	,03/04/2011
+PAT000630,,Worcestershire,2017-08-30T00:00:00
+PAT000631,Public,Northamptonshire,
+PAT000632,Public,South Lanarkshire,10/02/2011
+PAT000633,None,East Renfrewshire	,01/05/2023
+PAT000634,Private,NORTHAMPTONSHIRE,2012-12-18
+PAT000635,private,Radnorshire,08/04/2014
+PAT000635,private,Radnorshire,08/04/2014
+PAT000636,Public,pembrokeshire,20/09/2013
+637.0,,Armagh,04/06/2021
+PAT000638,Public,Clackmannanshire,23/02/2023
+PAT000639,None,Inverclyde,2013-04-03T00:00:00Z
+PAT000640,Private,Northamptonshire,20161230.0
+PAT000641,Private,Suffolk,17-Mar-2024
+PAT000642,Public,Cumbria,2022-11-29T00:00:00Z
+PAT000643,none,West Dunbartonshire,2022-07-15T00:00:00
+PAT000644,Private,South Lanarkshire,2021-07-18T00:00:00
+PAT000645,None,Cornwall,19-Apr-2024
+,PUBLIC,Anglesey,2022-05-04
+PAT000647,,Greater Manchester,2014-06-08T00:00:00
+PAT000648,,East Sussex,2011-04-22T00:00:00Z
+,Public,CORNWALL,2010-12-02T00:00:00Z
+pat000650,Private,Clackmannanshire,2017-03-03
+PAT2458436,Private,,25-Sep-2023
+PAT000652,,Down,2012-01-11
+PAT000653,Public,Derbyshire,
+PAT000654,Public,Somerset,2019-06-25T00:00:00
+PAT000655,Public,Aberdeenshire	,19/02/2020
+PAT000656,None,South Yorkshire,2020-02-07T00:00:00Z
+PAT000657,None,Denbighshire,2022-09-07
+PAT000658,Public,Tyne and Wear,16/09/2014
+pat000659,Private,East Sussex,2013-01-15
+PAT000660,None,,2020-03-19T00:00:00Z
+PAT000661,,Stirling,18/12/2010
+PAT000662,Public,Antrim,2019-05-25
+PAT000663,Private,Tyne and Wear	,2021-02-04
+PAT000664,private,Moray,
+PAT000665,Private,Derry and Londonderry,2024-06-12T00:00:00Z
+PAT000666,,Eilean Siar,
+,,,2016-07-13T00:00:00Z
+PAT000668,Private,West Dunbartonshire,2021-08-04T00:00:00
+,Public,Durham,24/06/2011
+PAT000670,private,Worcestershire,29/10/2021
+PAT000671,private,Fife	,2018-10-10
+PAT000672,Public,Hertfordshire,2022-12-25
+PAT000673,None,,15-Apr-2023
+,, Warwickshire ,2023-06-24T00:00:00
+PAT000675,Private,INVERCLYDE,16-Aug-2020
+pat000676,,Norfolk,05-May-2023
+PAT000677,Public,Flintshire,
+PAT000678,Private,Cardiganshire,01/06/2015
+PAT000679,None,Cheshire,04/12/2023
+PAT7167528,None,Moray,
+pat000681,None,West Sussex,
+PAT000682,Public,Carmarthenshire	,
+PAT000683,Private,Antrim,2013-03-06
+PAT000684,None,Kent,
+PAT000685,,Merseyside,
+686.0,None,Suffolk,28-Mar-2018
+PAT000687,None,Caernarvonshire,2015-03-14T00:00:00Z
+PAT000688,Private,Cambridgeshire,2011-06-04
+PAT000689,None,Aberdeen City,21-Oct-2015
+PAT000690,Public,Falkirk,2017-03-20T00:00:00
+PAT000691,None,Aberdeen City,2019-06-14T00:00:00Z
+PAT000692,None,Argyll and Bute,2012-11-19
+,None,Tyrone,20170617.0
+PAT000694,None, east renfrewshire ,17/07/2012
+PAT000695,Public, Falkirk ,
+pat000696,Private,Glasgow City,
+PAT000697,,West Dunbartonshire,20-Jun-2024
+PAT000698,NONE,Derry and Londonderry,2015-04-26T00:00:00
+PAT000699,Public,Dumfries and Galloway,2020-07-20T00:00:00Z
+PAT000700,Private,East Dunbartonshire,2014-07-25
+PAT000700,Private,Greater Manchester,08/10/2019
+PAT000701,None,Midlothian,2012-06-27T00:00:00Z
+PAT000702,Public,North Lanarkshire,20190118000000.0
+PAT000703,Private,Hampshire,2020-06-13T00:00:00
+PAT000704,None,West Dunbartonshire,02-Nov-2017
+PAT000705,Private, Derry and Londonderry ,
+pat000706,Private,Greater London,2018-06-11
+PAT000707,private,Worcestershire,02/12/2017
+PAT000708,Private,Cleveland,08/07/2022
+709.0,None,Aberdeen City	,2014-04-07T00:00:00Z
+PAT000710,None,South Lanarkshire,16-Jan-2016
+PAT000711,,Aberdeen City,2022-08-11
+PAT000712,Public, Montgomeryshire ,
+PAT000713,Public,Breconshire,2010-09-20
+PAT000714,Public,Antrim,10-May-2023
+PAT000715,Private,Lancashire,13-jan-2021
+PAT1661861,Private,Monmouthshire,2018-03-02T00:00:00
+PAT000717,, Lancashire ,2022-01-06T00:00:00
+pat000718,Public,Devon	,2023-05-30
+PAT000719,None,Buckinghamshire,11-Dec-2021
+PAT000720,Private,South Ayrshire,2020-07-28T00:00:00Z
+PAT000721,None,Greater London,20-Sep-2011
+PAT000722,Public,Buckinghamshire,2012-03-12
+PAT000723,None,Cleveland,2017-06-30T00:00:00
+PAT000724,Public,East Ayrshire,2024-07-27T00:00:00Z
+pat000725,Private,Fife,08/08/2020
+PAT000726,Private,Perth and Kinross,13/11/2019
+PAT000727,Public,Cardiganshire,03/12/2015
+PAT000728,Public,Shetland Islands,2015-02-12
+PAT000729,None,Cambridgeshire,2018-11-19
+PAT000730,None,Lincolnshire,18-Oct-2019
+PAT000731,Private,North Yorkshire,2010-09-19
+PAT000732,Private,Perth and Kinross,
+PAT000733,Public,,21-Feb-2017
+PAT000734,None,Northumberland,06-apr-2019
+PAT000735,Public,Dundee City,19-Nov-2010
+PAT000736,,Norfolk,23/10/2019
+PAT000737,Public,Northamptonshire,25-Jan-2017
+,None,lincolnshire,04-Jun-2023
+PAT000739,None,Monmouthshire,21/10/2020
+PAT000740,none,Eilean Siar,
+,Private,Armagh,2017-03-12T00:00:00
+,Public,Midlothian,142018.0
+PAT000743,None,Denbighshire,2021-11-26
+PAT000744,None,East Renfrewshire,18/03/2018
+PAT000745,,Caernarvonshire,2011-10-02T00:00:00Z
+pat000746,None,Fife,2024-05-19T00:00:00Z
+PAT000747,None,North Yorkshire,2019-03-23T00:00:00
+PAT000748,Private, Suffolk ,11-May-2020
+PAT000749,Private,Clackmannanshire,04-Nov-2015
+,Public,Cardiganshire,2019-05-17T00:00:00
+,Public,Cardiganshire,2019-05-17T00:00:00
+PAT000751,Public,Dundee City,21-Jun-2015
+PAT000752,Private,South Yorkshire,2020-03-22T00:00:00Z
+PAT000753,Private, Devon ,2021-07-12
+PAT000754,Public,Angus,2022-03-26
+pat000755,Private,,
+pat000755,Public,Orkney Islands,2011-05-13T00:00:00Z
+PAT1322111,,monmouthshire,16/04/2024
+PAT000757,,Fermanagh,23/10/2020
+PAT000757,,Fermanagh,23/10/2020
+PAT000758,Private,Flintshire,2024-04-26
+PAT000759,None,Montgomeryshire,30-Sep-2013
+PAT000760,Private,Inverclyde,2019-03-18T00:00:00
+,none,Cardiganshire,06/06/2013
+PAT000762,Private,East Sussex,2023-09-03T00:00:00
+PAT000763,None,Somerset,20200429.0
+PAT000764,Private,Suffolk,2016-12-29
+pat000764,None,Perth and Kinross,07/03/2018
+765.0,,Armagh,2013-03-09
+PAT000766,None,East Renfrewshire,
+PAT000767,none,Monmouthshire,
+PAT000768,None,worcestershire,18-Sep-2012
+PAT000769,Public,Scottish Borders	,2024-02-29
+PAT000770,Private,Renfrewshire,
+PAT000771,None,Moray	,2022-01-08T00:00:00Z
+PAT000772,private,City of Edinburgh,04-Jul-2017
+pat000773,Public, DOWN ,2020-04-09
+PAT000774,,Inverclyde,08-Oct-2023
+PAT000775,Public,Midlothian,02/07/2014
+PAT000775,Public,Hertfordshire,27-Mar-2011
+PAT000776,Public,,2021-09-04T00:00:00Z
+pat000777,,Greater Manchester,12-Sep-2011
+PAT000778,Private,,2013-11-20T00:00:00Z
+pat000779,Public,Norfolk,2016-12-14T00:00:00Z
+PAT000780,None,DENBIGHSHIRE	,21-Jan-2013
+,Private,Northamptonshire,30/12/2011
+PAT000782,Public,perth and kinross,02/02/2011
+PAT000782,Public,perth and kinross,02/02/2011
+PAT000783,,Moray,24-Feb-2014
+PAT000784,Public,Moray,06/10/2015
+PAT000785,PRIVATE, Fermanagh ,2019-10-23T00:00:00Z
+PAT000786,None, North Ayrshire ,2014-01-12T00:00:00
+PAT000787,None,Bedfordshire,2016-01-22T00:00:00Z
+PAT000788,private,Somerset,14/10/2017
+PAT000789,Public,Warwickshire,2021-12-28
+PAT000790,Public,Cheshire,2022-05-02
+pat000791,Private,Buckinghamshire,05/07/2022
+PAT000792,Private,,
+PAT000793,None,Leicestershire,22-Jun-2017
+PAT000793,None,Bedfordshire,2010-11-17
+PAT000794,,Fermanagh,
+PAT000795,Public,West Lothian,122012.0
+796.0,private,Flintshire,06/08/2015
+PAT000797,Private,Norfolk,2017-11-28
+PAT000798,Public,Dumfries and Galloway,14/04/2023
+pat000799,Public,,16-Feb-2024
+PAT000800,Public,durham,2020-03-12
+PAT000801,NONE,Greater Manchester,04-Jul-2012
+PAT000802,None,Cambridgeshire	,24-Dec-2017
+,Private,Gloucestershire,05-Apr-2024
+PAT000804,Public,Staffordshire,2020-06-05T00:00:00
+pat000805,public,East Renfrewshire,07/03/2024
+806.0,Private,Stirling,2014-04-09
+,Private,Scottish Borders	,
+PAT000808,Public,Perth and Kinross,28-Oct-2016
+809.0,None,,19/10/2014
+810.0,Public,SOUTH AYRSHIRE	,29/03/2021
+,Private,Glasgow City,02/03/2016
+pat000812,,Gloucestershire,2014-08-26
+PAT000813,Private,NORTHUMBERLAND,2022-10-26
+PAT000814,Public,Kent,2024-04-06T00:00:00Z
+PAT000815,None,Essex,03-Mar-2014
+PAT000816,Public,South Ayrshire,11/07/2018
+PAT000817,Private,Cambridgeshire,31-Dec-2012
+,None, Dundee City ,01-Oct-2012
+PAT000819,None,Moray,
+PAT000820,None,City of Edinburgh,2022-01-30T00:00:00Z
+PAT000821,Public,Buckinghamshire,06/03/2016
+PAT000822,Public,,24/05/2018
+PAT000823,,Shropshire,05/10/2016
+PAT000824,None,Staffordshire,14/08/2013
+825.0,None,Denbighshire,2023-01-08
+PAT000826,Private,Fife,08/06/2013
+PAT000827,Private,Inverclyde,2013-07-07T00:00:00Z
+PAT000828,Public,South Lanarkshire,2019-09-02T00:00:00Z
+PAT000829,None,Derry and Londonderry,09-Aug-2016
+PAT000830,None,Greater London,2016-10-04
+PAT000831,None,CLACKMANNANSHIRE,14/11/2013
+PAT000832,Public,North Yorkshire	,2023-10-28
+PAT000833,None,Monmouthshire,25-Sep-2022
+PAT000834,None,West Lothian,03-Nov-2013
+PAT000835,,South Lanarkshire,2011-03-14T00:00:00
+PAT000836,None,Gloucestershire,2017-10-26T00:00:00
+PAT000837,Private,Dumfries and Galloway	,
+PAT000838,None,Northamptonshire,12/08/2016
+PAT000839,,Buckinghamshire,03-Jul-2020
+PAT000840,Public,Scottish Borders,
+PAT000841,Public,Suffolk,22-Feb-2019
+PAT000842,Private,Derbyshire,20180510.0
+PAT4119913,None,Montgomeryshire,2014-01-15T00:00:00Z
+PAT000844,None,Fermanagh	,2018-10-04T00:00:00
+PAT000845,Private,Surrey,2023-11-01
+PAT000846,,Worcestershire,2018-05-13T00:00:00
+PAT000847,Private, Greater Manchester ,23-jul-2022
+PAT000848,None,Kent,15/07/2023
+PAT000849,Public,ABERDEEN CITY,11/03/2018
+PAT000849,Private,Northamptonshire,
+PAT000850,PUBLIC,Shetland Islands,2017-03-05T00:00:00
+PAT000851,None,GLASGOW CITY,2014-02-01T00:00:00
+PAT000852,Public,Angus,16-Jun-2013
+pat000853,None,Buckinghamshire,27-Feb-2013
+PAT000854,,Dorset,2021-07-12
+855.0,None,Orkney Islands,2018-01-17
+PAT000856,None,Suffolk,10-Jan-2020
+PAT000857,Public,Anglesey,28-Dec-2020
+,Private,,2013-12-09T00:00:00
+PAT000859,,Antrim,08-Oct-2015
+,None,Oxfordshire,2022-06-23
+PAT000861,None, North Yorkshire ,31-DEC-2018
+PAT000862,PUBLIC,East Lothian,30-Sep-2011
+PAT000863,Public,Warwickshire,2013-03-25T00:00:00
+PAT000864,None,CLEVELAND,2011-11-14T00:00:00Z
+PAT000865,None,West Sussex,2017-12-31T00:00:00
+PAT000866,None,Armagh,13/06/2024
+PAT000867,Public, CLEVELAND ,2015-05-11T00:00:00
+PAT000868,None,Bedfordshire,2022-07-12
+pat000869,,Surrey,2014-01-29T00:00:00Z
+PAT000870,None,Gloucestershire,20/10/2015
+871.0,Private,Wiltshire,26-Oct-2022
+PAT000872,Private,Shetland Islands,
+PAT000873,,INVERCLYDE,
+PAT4390536,None,antrim,2011-05-15
+PAT000875,None,Breconshire,2016-01-16
+PAT000876,Public,Buckinghamshire,11-Nov-2011
+877.0,None,Eilean Siar,14-Nov-2022
+PAT000878,Public,Lincolnshire,
+PAT000879,Public,SOUTH LANARKSHIRE,07-feb-2017
+,Public, LANCASHIRE ,12/10/2021
+PAT000881,Public,East Renfrewshire,28/12/2021
+pat000882,Private,ABERDEENSHIRE,2014-04-05
+PAT7926341,Private,South Lanarkshire,04/03/2012
+PAT000884,Private,Radnorshire,20-Mar-2021
+PAT000885,Public,,2017-12-30
+PAT000886,None,Fermanagh,19/12/2022
+pat000887,Public,Pembrokeshire,15/03/2016
+PAT000888,PRIVATE,Dundee City	,21/05/2019
+PAT000889,Public,West Dunbartonshire,2021-03-25
+890.0,Private,Clackmannanshire,2021-07-21
+pat000891,Public,East Sussex,05-Jan-2024
+PAT000892,Private,Flintshire,2013-06-29
+,,Highland,2015-09-24T00:00:00Z
+PAT000894,None,West Lothian,2023-04-12T00:00:00Z
+PAT000895,None,Worcestershire,2020-11-01T00:00:00
+PAT000896,Private,,2015-11-27
+PAT000897,,South Yorkshire,10-Feb-2013
+PAT000898,Private,,17/02/2016
+PAT000899,None,Eilean Siar,01/09/2018
+pat000900,Public,Glasgow City,2019-01-26
+PAT000901,NONE,Cheshire,2010-11-01T00:00:00Z
+PAT000902,Public,Caernarvonshire,2017-05-21
+PAT000903,None,Stirling,10/06/2021
+PAT000904,None,Buckinghamshire,2021-07-22t00:00:00
+PAT000905,Public, North Ayrshire ,24-Dec-2013
+PAT000906,Public,Suffolk,2020-06-20T00:00:00Z
+PAT000906,none,North Ayrshire,25/03/2024
+PAT000907,None,South Lanarkshire,01-Sep-2024
+PAT000907,None,Cambridgeshire,22-Jan-2022
+pat000908,None,Gloucestershire,2020-12-15T00:00:00
+PAT000909,None,West Lothian,31/01/2022
+PAT000910,None,Cleveland,05-Aug-2018
+PAT000911,Private,,01/02/2022
+912.0,Public,City of Edinburgh,04-Oct-2017
+PAT000913,Private,,28/07/2023
+pat000914,Private,SOUTH YORKSHIRE,30082012.0
+pat000915,Public,Clackmannanshire,25/08/2023
+,None,Merionethshire,20-Oct-2021
+,Private,HAMPSHIRE,2016-01-17
+PAT000918,Public,Scottish Borders,20160403.0
+PAT000919,None,West Sussex	,07-Oct-2016
+PAT000919,None,West Sussex	,07-Oct-2016
+,Private,Radnorshire,2021-12-25T00:00:00Z
+921.0,Public,,2023-02-02
+pat000922,Private,Merseyside,15/10/2022
+PAT000923,None,,16-Oct-2015
+pat000924,None,Staffordshire,2018-11-18
+PAT000925,,Breconshire,2020-07-09
+PAT000926,None,Clackmannanshire,19-Feb-2023
+PAT000927,Public, Cardiganshire ,20210309000000.0
+PAT000928,None,Hampshire,2016-12-03T00:00:00
+PAT000929,Public,Bedfordshire,2014-01-05T00:00:00
+PAT000930,None,Monmouthshire,2017-07-18T00:00:00
+pat000931,None,Dumfries and Galloway,27-Oct-2013
+PAT000932,Public,Derry and Londonderry,19-Jul-2012
+PAT000933,Private,Fermanagh,25/02/2020
+PAT000934,,East Dunbartonshire,
+,Public,Aberdeen City	,2022-11-20
+PAT000936,Public,Northamptonshire,2014-03-17
+PAT000937,Private,Derry and Londonderry,14-Mar-2015
+pat000938,NONE,West Sussex,292016.0
+,,Inverclyde	,2018-06-27
+PAT000940,private,Cleveland,2024-08-14
+pat000941,Private,Tyrone,05/09/2019
+PAT9416727,None,Derbyshire,16/05/2016
+pat000943,NONE,Worcestershire,21/11/2012
+pat000944,public,South Yorkshire,2017-05-12
+PAT000945,None,Pembrokeshire,20/05/2013
+PAT000946,None,Warwickshire,2018-05-09
+PAT000947,Private,Stirling,28/06/2019
+PAT000948,,Warwickshire,
+PAT000949,Public,Greater Manchester,2016-02-02
+,Private,Glamorgan,31-Mar-2023
+PAT000951,Public,Glasgow City,25/11/2015
+PAT000952,Public,Stirling,29-Jun-2014
+PAT000953,public, Worcestershire ,2014-03-13
+PAT000954,Private, Derry and Londonderry ,16/04/2020
+PAT000955,NONE,Surrey,2014-12-27T00:00:00Z
+PAT000956,None,Clackmannanshire,
+PAT000957,PUBLIC,Denbighshire,2011-09-04T00:00:00Z
+pat000958,Private,Falkirk,14/07/2013
+pat000958,Private,Cumbria,2012-02-06
+pat000959,Public,Bedfordshire,2022-11-29
+PAT000960,Private,Dorset	,2018-01-03
+PAT000961,Public,Kent,2020-04-08
+PAT000962,none,West Sussex,29-Jul-2023
+PAT000963,None,Perth and Kinross,2023-06-15
+PAT000963,Private,Carmarthenshire,17/05/2022
+pat000964,None,West Berkshire,2012-12-30
+PAT000965,Private,East Renfrewshire,30-Aug-2022
+PAT000966,None,North Yorkshire,2012-07-14T00:00:00Z
+PAT000967,Public,Inverclyde,26-Nov-2018
+PAT000968,Public,,2017-03-07
+PAT000969,Private,Aberdeenshire,2016-12-10t00:00:00
+PAT000970,None,West Berkshire,27/01/2017
+PAT000970,None,West Berkshire,27/01/2017
+PAT000971,Private,Midlothian,2020-07-15T00:00:00
+PAT000971,NONE,West Berkshire,2011-07-11T00:00:00
+PAT000972,Private,Cardiganshire,28-Jun-2024
+PAT000973,Public,East Renfrewshire,2020-05-14T00:00:00
+PAT000974,None,Northamptonshire,30/05/2015
+PAT5086796,None,Eilean Siar,2014-11-29
+,Public,Stirling,2102018.0
+PAT000977,Public,Cornwall,2017-05-09
+,Public,Denbighshire,
+PAT000979,,Kent,22-Jul-2017
+PAT000980,None,Falkirk,2022-10-19T00:00:00
+PAT000981,NONE,Perth and Kinross,19-Sep-2011
+PAT000982,Public,Carmarthenshire,2020-05-25
+PAT000982,Public,Carmarthenshire,2020-05-25
+PAT4384551,Private,Surrey,16/12/2013
+PAT000984,,staffordshire,13-Oct-2014
+PAT000985,Public,Northumberland,2021-12-21
+PAT000986,None,,2021-05-25T00:00:00
+PAT000987,None,Antrim,2015-03-10T00:00:00
+PAT000988,None,Warwickshire,2013-08-10T00:00:00Z
+PAT000989,Private,Highland,2019-04-30T00:00:00
+PAT000990,None,Lancashire,2017-01-01T00:00:00
+pat000991,Public,Shropshire,
+PAT000992,none,Hertfordshire,06-Jun-2015
+PAT000993,Public,cardiganshire,2020-07-05
+PAT000994,Private,Bedfordshire,2016-10-06T00:00:00Z
+PAT000995,None,Carmarthenshire,27/12/2020
+PAT000996,None,WEST DUNBARTONSHIRE,2012-09-16
+PAT000997,NONE,surrey,08-nov-2012
+PAT000998,,Cheshire,14-Jun-2012
+,,Caernarvonshire,
+PAT001000,None,Lancashire	,16/06/2014
+PAT001001,None,Glamorgan,16-Nov-2022
+PAT001002,Private,,2018-05-02
+PAT001003,None,Cheshire,2019-01-04
+pat001004,None,East Renfrewshire,05-Jun-2014
+PAT001004,Private,Cumbria,2017-08-13
+PAT001005,None,Fife,02-Jul-2022
+,Public,KENT	,
+PAT001007,None,Hampshire	,20/03/2024
+,None,city of edinburgh,09/04/2012
+PAT001009,,Merseyside,2011-07-08T00:00:00Z
+PAT001009,PRIVATE,East Lothian,2018-12-18T00:00:00
+,PUBLIC,Merionethshire,2012-04-08
+PAT001011,Public,Hampshire,20230509.0
+1012.0,Private,East Ayrshire,2020-05-29
+PAT001013,Private,Scottish Borders,19-Sep-2016
+PAT001014,Private,Greater Manchester,03/03/2021
+PAT001015,public,Argyll and Bute,
+PAT001016,Private,West Yorkshire,202011.0
+PAT001017,,Shetland Islands,2015-07-11
+PAT001018,None,Cleveland,2021-05-28T00:00:00Z
+,None,Antrim,2015-06-21
+PAT001020,Public,Cornwall,
+PAT001021,Public,Armagh,2013-05-12T00:00:00Z
+PAT001022,Private, Nottinghamshire ,
+PAT001023,Private,Falkirk,12/03/2015
+PAT001024,None,Northamptonshire,16-Jan-2020
+PAT001025,Public,Hertfordshire,2012-08-17
+,None,Renfrewshire,19-Apr-2023
+PAT001027,Private,Greater Manchester,29-Aug-2015
+PAT001028,Private,Denbighshire,20-Apr-2016
+PAT001029,Private,Dorset	,
+PAT001030,Public,Montgomeryshire,2023-03-12t00:00:00
+PAT001031,Private,Orkney Islands,2021-10-05
+,Public,Armagh,2011-06-17
+PAT001033,Private,East Ayrshire,2011-02-24T00:00:00Z
+pat001034,Private,Hampshire,2022-09-25T00:00:00Z
+PAT001035,Private,radnorshire,2019-10-08
+PAT001036,Private,Midlothian,21/10/2018
+PAT001037,Public,Angus,2016-03-23T00:00:00Z
+PAT001038,None,Pembrokeshire,2023-03-09
+PAT001039,None,Devon,18-Sep-2023
+PAT001040,Private,East Renfrewshire	,2010-10-18T00:00:00
+PAT001041,Public,,2011-10-03T00:00:00
+PAT001042,Private,,2021-09-19T00:00:00Z
+PAT001043,Private,CLEVELAND,28/04/2016
+PAT001044,None,shetland islands,28-Nov-2023
+,None,,2012-01-18
+PAT001046,None,South Lanarkshire,2022-05-06T00:00:00
+PAT001047,,Suffolk,12-Dec-2022
+PAT001048,Private,NORTHUMBERLAND,2024-04-18T00:00:00Z
+PAT001049,None,Dorset,2011-12-19
+PAT001050,Private,Lincolnshire,2021-12-09T00:00:00Z
+PAT001051,,Angus,
+PAT001052,Private,West Berkshire,14/10/2013
+PAT001053,Private, Moray ,2019-12-14T00:00:00Z
+PAT001054,Private,Northumberland,2019-04-16T00:00:00
+,Public,,28-Oct-2022
+PAT001056,Private,Inverclyde,30/03/2013
+PAT001057,Public,East Dunbartonshire,18-Dec-2013
+,Private,North Lanarkshire,06/11/2011
+PAT001058,Public,Midlothian,2014-09-09T00:00:00Z
+PAT001059,Public,Lincolnshire,16-Dec-2020
+PAT1490073,Public,Cleveland,2017-06-30
+pat001061,Private,Dorset,2021-03-01
+PAT001062,public,Antrim,17-Apr-2020
+PAT001063,Private,Stirling,2011-05-05T00:00:00
+pat001064,Private,Derbyshire,2020-03-17
+PAT001065,None, west berkshire ,2022-09-04
+PAT9511404,Public,,2015-04-25T00:00:00Z
+,Public,Glasgow City,2016-10-11
+PAT001068,None,Dundee City,07/10/2012
+PAT001069,Public,Greater Manchester,11-Jun-2020
+PAT001069,Public,Greater Manchester,11-Jun-2020
+PAT6209434,Private,Shetland Islands,2019-07-09T00:00:00Z
+1071.0,Public,Dorset,2020-01-09T00:00:00
+PAT001072,None,west dunbartonshire,24-Mar-2013
+pat001073,Public,Leicestershire,2012-09-12
+PAT001074,none,Argyll and Bute,2016-09-24T00:00:00Z
+,Public, West Midlands ,01-May-2020
+PAT001076,Private,Greater London,23-Jul-2023
+1077.0,,East Dunbartonshire,23-Jan-2019
+1078.0,None,Cheshire	,2013-04-28T00:00:00Z
+1079.0,Private,North Lanarkshire,2013-03-10T00:00:00
+PAT001080,Public,SOUTH LANARKSHIRE,2018-04-11
+pat001081,Public,Derry and Londonderry,2022-12-31
+PAT001082,,North Yorkshire,
+PAT001083,Public,Perth and Kinross,2022-01-02T00:00:00
+PAT001084,Private,Cambridgeshire,2018-06-10T00:00:00
+PAT001085,NONE,Aberdeen City,18/12/2020
+PAT001086,Public,Shropshire,2015-03-17T00:00:00Z
+,public,South Ayrshire,
+PAT001088,,,2016-01-30
+PAT001089,,Antrim,2016-06-15
+PAT001090,Private,Falkirk,10/12/2019
+,None,,2020-04-30
+pat001092,Public,,02/05/2023
+PAT001093,Public,Cheshire,2017-10-06T00:00:00Z
+PAT001093,Public,Cheshire,2017-10-06T00:00:00Z
+PAT001094,Private,Glamorgan	,2023-02-15t00:00:00
+PAT001095,NONE,Somerset,2016-01-16
+PAT001096,None,North Ayrshire,2010-09-19T00:00:00
+PAT001097,Public,West Midlands,2019-09-17T00:00:00
+PAT001098,Private,South Yorkshire,2017-10-12
+PAT001099,Public,Merseyside,2022-06-17
+PAT001100,None,Anglesey,
+pat001101,,Lincolnshire,2023-06-06T00:00:00
+pat001102,None,Dundee City,24/04/2014
+PAT001103,Private,Antrim,2011-12-17
+PAT001104,Public,West Dunbartonshire,09-Oct-2010
+PAT001105,Private,Merseyside,20/04/2019
+PAT001106,None,West Yorkshire	,18/09/2018
+PAT001107,Public,Orkney Islands,30/10/2014
+PAT001108,None,Cumbria,2011-07-26T00:00:00Z
+PAT001109,Public,Shropshire,
+1110.0,public,Gloucestershire,26-Oct-2021
+PAT4188161,None,East Sussex,2021-10-16T00:00:00
+PAT001112,Private,STIRLING,2018-01-18
+PAT001113,,ARGYLL AND BUTE,30-Oct-2021
+PAT001114,,Cheshire,2020-10-27
+PAT001115,Public,Staffordshire,2020-07-08
+,Public,Tyne and Wear,13-Sep-2020
+PAT001117,Public,Cornwall,2023-01-20T00:00:00Z
+PAT001118,Public,Cardiganshire,13-Nov-2013
+PAT001119,Public,Armagh,15-Jan-2023
+PAT001120,Private,Greater London,04-Mar-2016
+1121.0,Public, West Sussex ,22-Nov-2018
+PAT001122,None,Monmouthshire,2022-06-01
+PAT001123,None,Antrim,04/12/2020
+PAT001124,Public,Warwickshire,24-Aug-2024
+1125.0,None,,2012-07-21
+pat001126,Private,Northamptonshire,2015-01-02
+PAT001127,None,Derbyshire,13/01/2021
+PAT001128,NONE,Renfrewshire,2020-05-03T00:00:00
+PAT001129,Private,Moray,02/08/2021
+PAT001130,Private,Renfrewshire,
+PAT001131,Public,Flintshire,2012-09-13
+PAT001132,Private,,
+1133.0,,Eilean Siar,04-Dec-2016
+PAT001134,Public,DOWN,05/05/2013
+PAT001135,Private,Lincolnshire,03-Mar-2016
+PAT001136,,North Lanarkshire	,2021-05-10T00:00:00
+,Private,Montgomeryshire,2024-03-31T00:00:00
+PAT001138,Private,Antrim,2018-10-12
+PAT001139,None,Down,2024-03-02T00:00:00Z
+1140.0,Public,Carmarthenshire	,06/09/2023
+PAT001141,Public, DURHAM ,10-Feb-2011
+pat001142,Private,Monmouthshire,27-Feb-2018
+1143.0,,south yorkshire,25-Oct-2019
+pat001144,Public,South Yorkshire,08-Mar-2013
+PAT001145,Private,,
+PAT001146,Private,Carmarthenshire,
+PAT6599266,Private,Cambridgeshire,
+PAT001148,Private,Glamorgan,2016-05-07T00:00:00
+PAT001149,Private,Somerset,03/04/2022
+PAT001150,Public,Leicestershire,24/04/2016
+PAT001151,Private,,2013-11-22
+PAT001152,Public,Aberdeen City,15/01/2017
+PAT001153,Public,Lincolnshire,23/02/2014
+PAT001154,Private,Somerset	,06-Jun-2011
+,None,Hertfordshire,2018-02-23T00:00:00
+PAT001156,Private,West Midlands,21/06/2019
+1157.0,None,Gloucestershire,12-May-2011
+PAT001158,Private,Monmouthshire	,
+PAT001159,Public,Greater London,
+1160.0,Public,Durham,19-Dec-2014
+PAT001161,Private,Fermanagh,18-OCT-2019
+PAT001162,private,Cambridgeshire,
+PAT001163,None,DERRY AND LONDONDERRY,07-Feb-2019
+PAT001164,,Renfrewshire,26/06/2023
+1165.0,Private,Denbighshire,2012-11-02
+PAT001166,Public,West Lothian,10-Apr-2021
+PAT001167,Public,Stirling,2012-08-22T00:00:00
+PAT001168,none,Cardiganshire,2020-03-21T00:00:00
+PAT001169,None, Durham ,2024-08-19T00:00:00
+PAT001170,Private,east dunbartonshire,26/05/2016
+PAT001171,Public,Dundee City,2015-06-11
+PAT001171,Private,Aberdeen City	,2015-12-24T00:00:00Z
+PAT001172,Private,,2018-09-01T00:00:00Z
+PAT001173,Public,Wiltshire,03/12/2016
+1174.0,None,DERRY AND LONDONDERRY	,
+PAT001175,None,cardiganshire,17-Jun-2023
+PAT001176,Private,,2020-07-02
+PAT001177,Public,Orkney Islands,2014-07-03
+PAT001178,Public,Dumfries and Galloway	,22-Nov-2011
+1179.0,Public,Armagh,2012-03-24T00:00:00Z
+PAT001180,Private,Caernarvonshire,2011-07-21T00:00:00
+1181.0,PUBLIC,,30-May-2017
+1182.0,Public,West Dunbartonshire,2023-01-30
+PAT001183,Public,West Sussex,20/05/2011
+PAT001184,None,Aberdeenshire,
+PAT001185,Private,Radnorshire,2018-01-04
+,PUBLIC,City of Edinburgh,27-Jan-2013
+PAT001187,None,Anglesey,02-Jun-2021
+pat001188,Public,Renfrewshire,25-Aug-2024
+,public,,2016-05-09
+PAT001190,None,Gloucestershire,2017-05-27
+PAT001191,None,West Yorkshire	,2022-08-17T00:00:00
+PAT001192,,Bedfordshire,2015-10-17T00:00:00
+PAT001193,Public, West Berkshire ,2012-05-05t00:00:00
+PAT001194,None,Dorset,2014-02-22T00:00:00
+PAT001195,Private,City of Edinburgh,2013-05-26T00:00:00
+PAT001196,None,City of Edinburgh,2013-09-03T00:00:00
+PAT001197,Public,Greater London,2019-10-16T00:00:00Z
+PAT001198,Private,Tyne and Wear,21/12/2019
+PAT001199,Private,Derbyshire,17/12/2012
+PAT001200,Private,Leicestershire,20/11/2011
+PAT001201,None,PEMBROKESHIRE,27-May-2020
+PAT001202,,Radnorshire,2011-12-22T00:00:00Z
+PAT6248993,public,Gloucestershire,2021-01-26
+PAT001203,Public,monmouthshire,2020-04-21
+PAT001204,Public,cardiganshire,2024-03-12
+PAT001204,None,Derry and Londonderry,
+PAT001205,Public,West Yorkshire	,2021-02-24
+PAT001206,,oxfordshire,2010-11-04T00:00:00Z
+PAT001206,,oxfordshire,2010-11-04T00:00:00Z
+PAT001207,None,Cambridgeshire,
+1208.0,Public,Gloucestershire,
+PAT001209,Private,Tyrone,2012-06-21
+PAT001210,,Cardiganshire,15-May-2015
+PAT001211,Public,NORTH AYRSHIRE,2013-06-30T00:00:00
+PAT001212,, Montgomeryshire ,2020-07-15
+PAT001213,None,Leicestershire,
+PAT001214,None,Northamptonshire,2013-01-16T00:00:00
+PAT001215,PUBLIC,Clackmannanshire,2022-08-07T00:00:00Z
+PAT001216,Public,Angus,2012-07-04
+PAT6396314,Private,Greater Manchester,
+PAT001218,Private,Down,2013-11-09T00:00:00
+PAT001219,None,Bedfordshire,2016-10-23T00:00:00Z
+PAT001220,None,,2020-09-02T00:00:00Z
+PAT001221,Private,Cornwall,21/11/2013
+,None,East Ayrshire,29/03/2021
+PAT001223,,Cardiganshire,
+PAT001224,Private,West Yorkshire,2011-08-07T00:00:00
+PAT001225,None,Down,07-Nov-2017
+PAT001226,Private,East Sussex,20/10/2018
+PAT001227,Public,,19-Feb-2020
+PAT001228,Private,Wiltshire,2017-06-10T00:00:00
+PAT001229,None,North Yorkshire,2015-05-19
+PAT001230,Private,orkney islands,14/05/2014
+PAT001231,Public,,2019-03-11T00:00:00
+,,Merseyside,25-Aug-2017
+PAT001233,None,Derbyshire,2018-06-10T00:00:00Z
+PAT001234,Public,south lanarkshire,21/12/2017
+PAT001235,Public,Carmarthenshire,2015-03-15
+PAT001236,Private,West Midlands,2013-10-07
+PAT001237,None,norfolk,25/11/2023
+PAT001238,Private,Falkirk	,20230808.0
+PAT001239,Public,Moray,2017-08-18T00:00:00
+1239.0,None,Radnorshire,06/03/2016
+PAT001240,Public,Norfolk,2014-12-02
+PAT001241,None, north yorkshire ,19/08/2024
+PAT001242,Public,Tyrone,2017-08-30T00:00:00
+pat001243,Public,North Yorkshire,
+PAT001244,None,Bedfordshire,01-Jan-2015
+PAT001245,None,dundee city,09-Mar-2019
+PAT001246,private,Aberdeenshire,02-Aug-2018
+pat001247,Public,South Ayrshire	,29-Oct-2017
+PAT001248,NONE, Lincolnshire ,01-Nov-2021
+PAT001249,Public,Durham,2019-09-28T00:00:00
+PAT001249,None,Cheshire,2023-03-15T00:00:00
+PAT001250,public,North Yorkshire,2014-03-11T00:00:00Z
+PAT001251,None,Argyll and Bute,2011-10-22
+PAT001252,NONE,West Berkshire,07/12/2015
+pat001253,Public,Argyll and Bute,2014-08-01T00:00:00Z
+pat001254,Private,East Sussex,07-Nov-2019
+PAT001255,None,Dumfries and Galloway,2012-03-11T00:00:00Z
+PAT001256,,Eilean Siar,2023-03-14
+PAT001257,Private,Clackmannanshire,2023-02-07
+PAT001258,PRIVATE,West Berkshire,27-Feb-2023
+PAT001259,Private,Carmarthenshire,08/07/2018
+PAT001260,Private, Monmouthshire ,2015-09-12T00:00:00
+PAT001261,public,South Lanarkshire,2020-02-15
+PAT001261,PRIVATE,East Sussex,2023-07-23
+PAT001262,Public,Suffolk,2020-03-17
+PAT001263,,Denbighshire,26/02/2024
+PAT001264,None,Pembrokeshire,2019-10-24T00:00:00
+PAT001265,Public, Stirling ,05/12/2023
+PAT001265,None,Leicestershire,2011-07-12T00:00:00Z
+,None,Antrim,01-jun-2014
+PAT001267,Private,East Ayrshire,2016-01-21
+PAT001268,None,Norfolk,2020-08-14
+PAT001269,Public,Cumbria,22/06/2023
+PAT001270,,Fermanagh,
+PAT001271,None, aberdeen city ,2024-02-20T00:00:00Z
+,Public,West Berkshire,2023-04-06
+1273.0,Private,Down,08-Sep-2020
+PAT7389661,Private,Breconshire,12/01/2015
+PAT001275,None,Glamorgan,2020-09-17
+PAT001276,Public,Perth and Kinross,18/04/2022
+pat001277,Public,South Lanarkshire	,26-Aug-2022
+PAT001278,public,Radnorshire,2012-05-15
+pat001279,None,Cleveland,20120705.0
+PAT001280,None,Northamptonshire,2014-09-07
+pat001281,Public,Greater London	,2011-05-08T00:00:00
+pat001281,Public,Greater London	,2011-05-08T00:00:00
+,NONE,Denbighshire,25012024.0
+PAT001283,Public,Dorset,04-Feb-2015
+PAT001284,None,Surrey,2013-01-18T00:00:00
+PAT001285,Public,SHROPSHIRE,2016-09-08T00:00:00
+PAT001286,None,Perth and Kinross,2017-07-07T00:00:00Z
+PAT001287,Private,Aberdeen City,24-Aug-2016
+,Private,Worcestershire,11/02/2023
+PAT001289,None,Dundee City,04/12/2017
+pat001290,none,Staffordshire,2021-12-06
+PAT001291,Private,,2024-04-12T00:00:00Z
+PAT001292,None,Lancashire,13/05/2013
+,Private,Buckinghamshire,
+PAT001294,,Moray,2024-04-15T00:00:00
+PAT001295,Private,Essex,2021-10-18T00:00:00
+PAT001296,Private,Worcestershire,2016-11-27
+PAT001297,Private,Radnorshire,2011-10-13
+PAT001298,Public,West Berkshire,2017-10-03
+PAT001299,Public, Caernarvonshire ,22-Feb-2016
+PAT001300,Private,Wiltshire,2010-10-05
+,None,surrey,2024-02-25T00:00:00Z
+PAT001302,Private,Tyne and Wear,2012-01-31T00:00:00
+PAT001303,Private,West Berkshire,31/05/2024
+PAT001304,Public,,13/04/2011
+PAT001305,Public,EAST SUSSEX,2024-01-25
+PAT001306,Public,Carmarthenshire,22/02/2021
+PAT001307,Public,Somerset,21-Oct-2011
+PAT001308,None,Argyll and Bute,2011-06-22T00:00:00Z
+PAT001309,Public,South Yorkshire,2016-09-16
+PAT001310,Public,Shropshire,2024-01-31
+PAT001311,Public,Nottinghamshire,2018-08-01T00:00:00
+PAT001312,Private,Cumbria,2013-05-05T00:00:00Z
+PAT001312,Private,Cumbria,2013-05-05T00:00:00Z
+PAT001313,Public,North Yorkshire,2014-12-04
+,Private,devon,24/03/2018
+pat001315,None,Warwickshire,2013-05-10T00:00:00
+pat001315,None,Warwickshire,2013-05-10T00:00:00
+PAT001316,Public, Cumbria ,09/03/2013
+1316.0,,West Sussex,19/05/2014
+PAT001317,None,SUFFOLK,
+PAT001318,Private,Suffolk,21-Feb-2021
+PAT001319,None,Dumfries and Galloway,21-May-2019
+pat001320,Private,Highland,
+PAT001321,Public,Tyrone,
+pat001322,Private, Northamptonshire ,20141204.0
+PAT001323,Private,Gloucestershire,08-MAR-2018
+PAT001324,None,angus,2017-02-06
+PAT001325,Public,Greater Manchester,22/06/2024
+PAT001326,PRIVATE,DENBIGHSHIRE,07/06/2018
+PAT001327,Public,West Lothian,2018-04-03
+PAT001328,None,,
+,None,Cambridgeshire,15-Jan-2012
+,Public,West Berkshire,04/07/2024
+PAT001331,Private,CITY OF EDINBURGH,11/08/2014
+PAT001332,PUBLIC,Inverclyde	,12/07/2011
+PAT001332,private,Renfrewshire,12-Dec-2016
+PAT001332,private,Renfrewshire,12-Dec-2016
+PAT001333,public,Bedfordshire,26-oct-2015
+,None,Argyll and Bute,10-Jan-2011
+PAT001335,None,North Yorkshire,2018-01-24
+PAT001336,None,Montgomeryshire,2018-08-28T00:00:00Z
+PAT001337,Private,Tyne and Wear,2022-06-08
+pat001338,Private,South Ayrshire,2016-06-20T00:00:00Z
+PAT001339,Private,Greater London,08-Oct-2013
+PAT001340,None,Scottish Borders,2012-06-18
+PAT001341,None,Argyll and Bute,02-Feb-2013
+1342.0,Private,Dundee City,04/12/2011
+PAT001342,Public,Angus,15-Apr-2024
+PAT001343,PRIVATE,Flintshire,28-Jan-2020
+1344.0,None,Derbyshire,2023-02-23
+PAT001345,,Aberdeen City	,2021-08-16
+pat001346,private,Cornwall,15/05/2022
+PAT001347,Private,Norfolk,2014-06-09
+PAT001348,Public,,22-Jan-2012
+,None,HERTFORDSHIRE,28/12/2010
+PAT001350,Private,,2016-10-13
+pat001351,Public,West Dunbartonshire,10-Feb-2017
+PAT001352,Private, South Lanarkshire ,
+PAT001353,Public,Down,2010-11-04T00:00:00Z
+PAT001354,None,Shropshire,25-Sep-2010
+PAT001355,PRIVATE,West Yorkshire,28-Sep-2011
+1356.0,PRIVATE,Down,14/04/2022
+PAT001357,,Essex,2023-01-05T00:00:00
+PAT001358,Public,,
+PAT001359,Public,Montgomeryshire,02-Apr-2022
+,Private,Suffolk,13-Nov-2015
+PAT001361,Private,,2020-04-23
+PAT001361,Private,,2020-04-23
+PAT001362,,Cambridgeshire,2013-06-30T00:00:00Z
+PAT001363,Private,Denbighshire,2011-03-04T00:00:00
+PAT001364,,Highland,2015-09-10T00:00:00Z
+PAT001365,Private,Wiltshire,21112010.0
+PAT001366,Private,Argyll and Bute,2022-10-29T00:00:00
+PAT001367,none,West Sussex,11/02/2016
+pat001368,Public,Greater London,14-Nov-2013
+PAT001369,Public,Devon,
+PAT001370,None,Breconshire,28-Feb-2024
+PAT001371,None,Derbyshire,15/06/2023
+PAT001372,NONE,Eilean Siar,23-Sep-2022
+PAT001373,Private,Anglesey,2020-12-11T00:00:00Z
+PAT3146998,,staffordshire,2024-07-25
+pat001375,Public,West Berkshire,30-Apr-2021
+PAT001376,Private,Kent,2017-02-16
+PAT001377,None,,26/04/2013
+PAT001378,,Monmouthshire,
+PAT001379,Private,Greater Manchester,2019-09-30T00:00:00
+PAT001380,None,Cornwall,02-Oct-2019
+PAT001381,,Cornwall,2022-07-23
+PAT001382,Public,West Midlands,2011-05-03T00:00:00Z
+pat001383,PRIVATE,North Lanarkshire	,2015-05-03
+PAT001384,Private,East Sussex,2017-02-26
+,Public,SOUTH AYRSHIRE,2011-12-09
+,Public,SOUTH AYRSHIRE,2011-12-09
+PAT001386,None,Clackmannanshire,2013-01-03T00:00:00
+PAT001387,Private,East Dunbartonshire,2011-04-10
+pat001388,Private,,2022-05-20
+PAT001389,NONE,Cardiganshire,2018-06-15T00:00:00Z
+PAT4640521,Public, Anglesey ,2016-05-31
+PAT4640521,Public, Anglesey ,2016-05-31
+PAT001391,None,Caernarvonshire,09/10/2014
+PAT001391,None,Caernarvonshire,09/10/2014
+PAT001392,Private,West Midlands,2017-07-20
+pat001393,Public,Merseyside,2018-07-28
+PAT001394,None,South Yorkshire,2018-11-13T00:00:00
+PAT001395,Public,Shropshire,20/11/2019
+PAT001395,PRIVATE,Warwickshire,02-jul-2021
+PAT001396,Private,Lincolnshire,21-Jan-2022
+1397.0,None,Shropshire,212020.0
+PAT001398,Private,Tyne and Wear,06/06/2017
+PAT001399,None, North Yorkshire ,2020-04-20
+PAT001399,None, North Yorkshire ,2020-04-20
+PAT001400,Public,Angus,08-May-2012
+,,Down,2023-02-21T00:00:00Z
+,None,Devon,08-May-2022
+PAT001403,Private,Lancashire,2011-04-16
+,Public,South Yorkshire,2014-11-07T00:00:00
+PAT001405,Private,City of Edinburgh,16-Aug-2016
+PAT001406,none,Oxfordshire,2010-09-27
+PAT001407,None,Dundee City,27/04/2017
+PAT001408,None,Gloucestershire,2022-06-23T00:00:00Z
+PAT001409,None,falkirk,2024-06-18
+PAT001410,,Fermanagh,20220710.0
+PAT001410,Public,Fermanagh,2021-10-14
+PAT001411,none,Bedfordshire,25/10/2016
+PAT001412,private,Breconshire,01-Jan-2019
+,Public,north ayrshire,01/05/2017
+PAT001414,,Greater London,05-oct-2012
+,None,Greater Manchester,14/07/2015
+PAT001415,None,Oxfordshire,2015-03-12T00:00:00Z
+PAT001416,NONE,,2020-04-27
+,Private,Midlothian,
+1418.0,None,West Yorkshire,2021-11-29
+1419.0,Private,Warwickshire	,2022-10-21T00:00:00
+PAT001420,None,Cleveland,2014-02-10
+PAT001421,None,Armagh,06/09/2017
+PAT001422,,Greater London,21-May-2023
+PAT001423,None,Surrey,2020-09-15T00:00:00Z
+PAT001424,Public,Tyne and Wear,2016-07-25
+PAT001425,Private,West Sussex,162023.0
+PAT001426,None,Down,2022-05-26T00:00:00
+PAT001427,Private,Angus,2011-11-20T00:00:00
+PAT001428,Private,,02-Feb-2024
+PAT001429,Private,Cumbria,13-Oct-2015
+PAT001430,Public,City of Edinburgh,2019-04-06T00:00:00
+PAT001431,Public,Dumfries and Galloway,08-Jan-2012
+PAT001432,Private,Eilean Siar,212023.0
+PAT001433,Public,Glamorgan,2013-10-02
+PAT001433,Public,Glamorgan,2013-10-02
+PAT001434,private,North Yorkshire,29/03/2023
+PAT001435,Public,ANGLESEY,2012-05-05T00:00:00
+PAT001436,Private,Glasgow City,20/10/2019
+PAT001437,Private,Falkirk,14-Aug-2015
+PAT001438,Private,Suffolk,
+PAT001439,None,Hampshire,21/06/2018
+PAT001440,PRIVATE,Glamorgan,2023-08-23
+pat001441,, City of Edinburgh ,08-May-2011
+PAT001442,none,Surrey,05/11/2018
+PAT001443,Public,Norfolk,2013-06-15T00:00:00
+PAT001444,Public,North Yorkshire,2016-09-04T00:00:00Z
+PAT001444,Public,North Yorkshire,2016-09-04T00:00:00Z
+PAT001445,Private,Cumbria,2012-01-16T00:00:00Z
+PAT001446,None,North Lanarkshire,2016-08-01T00:00:00
+PAT001447,Private,Aberdeenshire,27/06/2020
+PAT001448,private,West Midlands,16/01/2016
+,Private, Breconshire ,2020-03-22T00:00:00Z
+,,Orkney Islands,06-Dec-2014
+,None,Dumfries and Galloway,02/09/2023
+PAT001452,private,Tyne and Wear	,2012-10-16
+PAT001453,Private,Aberdeenshire,2019-05-12T00:00:00
+PAT001454,Public,Pembrokeshire	,16-JUL-2016
+PAT001455,private,Glasgow City,
+PAT001456,None,Greater London,02-Apr-2012
+,None,LEICESTERSHIRE,2011-06-21
+,None,Flintshire,09-Dec-2012
+PAT001459,,Tyrone,152024.0
+PAT001460,Private,West Dunbartonshire,
+1461.0,private,East Ayrshire,2017-02-09T00:00:00Z
+PAT001462,Private,West Lothian,20/12/2013
+PAT001463,None,Northamptonshire,2024-09-05T00:00:00Z
+PAT001464,Public,Aberdeen City,16/01/2023
+pat001465,,Renfrewshire,2015-07-01T00:00:00Z
+PAT001466,None,Caernarvonshire,05-nov-2018
+PAT001467,None,Perth and Kinross,2019-10-25
+PAT001468,None,anglesey,
+PAT001469,None,East Lothian,12/10/2011
+PAT001470,None,North Lanarkshire,
+PAT001471,,,2022-07-26T00:00:00Z
+PAT001472,Public,CLEVELAND,2023-07-11
+PAT001473,None,EAST SUSSEX,2015-04-18T00:00:00
+pat001474,Private,,2015-04-09T00:00:00Z
+PAT001475,Public,CAMBRIDGESHIRE,17/07/2016
+PAT001476,,Wiltshire,2010-09-20
+PAT001477,Public,Renfrewshire,29-oct-2015
+pat001478,Public,Kent,
+PAT001479,Private,eilean siar,25/03/2014
+PAT001480,Private, Bedfordshire ,22/05/2020
+PAT001481,None,West Yorkshire,2017-11-06t00:00:00
+PAT001482,Private,North Yorkshire	,26/09/2014
+PAT001483,Private,West Sussex,23-Jul-2014
+PAT001483,None,East Sussex,2021-03-26T00:00:00
+PAT001484,None,Norfolk,2012-06-16
+PAT001485,Public,South Ayrshire,2020-09-11
+PAT001486,None,Clackmannanshire,19-jul-2023
+PAT001487,Private,Cumbria,
+PAT001488,NONE,Inverclyde,24/12/2014
+PAT001489,None,Flintshire,04-Nov-2020
+1490.0,None,,2023-06-13T00:00:00
+,Public,East Sussex,03/08/2015
+PAT001492,None,Orkney Islands,2012-08-30
+PAT001493,Private,Lincolnshire,2024-01-21T00:00:00Z
+PAT001494,Private,Anglesey,20/10/2013
+PAT001495,None,WEST LOTHIAN,16-Nov-2013
+PAT001496,Public,West Berkshire,2023-06-07
+PAT001497,Public,Denbighshire,2016-02-03T00:00:00
+PAT001498,None,,
+PAT001499,,Wiltshire,23-Dec-2011
+PAT001500,None,Derry and Londonderry,25/05/2016
+PAT001501,Private,Oxfordshire,27-JUL-2011
+PAT001502,Private,hertfordshire,2015-11-27
+PAT001503,None, Falkirk ,30-Dec-2020
+,Public,,17-Nov-2012
+PAT001505,Private, Inverclyde ,23-Dec-2010
+PAT001506,None,NORFOLK,
+PAT001507,,CHESHIRE,2012-03-20
+PAT001508,None,Derbyshire,06/03/2018
+PAT001509,None,Denbighshire	,2010-12-01
+PAT3712357,Public,North Lanarkshire,17-Jun-2021
+,None,South Yorkshire,2018-02-14
+PAT001511,Private,Hampshire,06-May-2020
+PAT001512,None,Anglesey,2018-02-24T00:00:00Z
+PAT001513,Public,Fife,2022-07-12T00:00:00
+PAT001514,Public,Suffolk,26/03/2019
+,None,Carmarthenshire,25-Oct-2019
+PAT001516,PUBLIC,south yorkshire,13-AUG-2019
+PAT001517,Public,North Lanarkshire,09/07/2018
+PAT001518,, North Ayrshire ,2022-01-22
+,None,Shetland Islands,
+PAT001520,Private,Dundee City,18-Jun-2011
+PAT001520,Private,Dundee City,18-Jun-2011
+PAT001521,None,Cardiganshire,2012-01-17T00:00:00
+PAT001521,None,Cardiganshire,2012-01-17T00:00:00
+PAT001522,Private,Perth and Kinross,09/04/2015
+PAT001523,none,,2018-03-28
+PAT001524,Private,Denbighshire,01/07/2016
+PAT001525,NONE,Cardiganshire,15/11/2016
+pat001526,None,Lincolnshire,2020-02-07
+PAT001527,Public,Aberdeenshire	,07-Jul-2011
+PAT001528,None,East Lothian,14/07/2023
+PAT001529,Private, Merionethshire ,2023-02-12
+PAT001530,Public,Merionethshire,2013-08-25
+PAT001531,Public,West Lothian,10-Feb-2019
+1532.0,None,Greater Manchester,24/05/2012
+PAT001533,Public,Northamptonshire,16/02/2019
+PAT001534,None,Kent,07/07/2014
+PAT001535,Private,Renfrewshire,02/12/2018
+pat001536,Public,Cornwall,2018-12-22t00:00:00z
+PAT001537,None,NOTTINGHAMSHIRE,2020-11-06
+PAT001538,None,Pembrokeshire,2014-09-14
+,Public,Dundee City,2015-01-22
+PAT001540,Private,Shetland Islands,04-Jan-2019
+PAT001540,Private,Shetland Islands,04-Jan-2019
+PAT001541,None,Denbighshire,2022-05-09T00:00:00Z
+PAT001542,Public,Oxfordshire,02/11/2020
+PAT001543,Public,Down,2023-04-15T00:00:00Z
+PAT001544,Public,Buckinghamshire,19-Feb-2024
+,,Argyll and Bute,2014-06-09
+,Private, Devon ,2023-10-19T00:00:00Z
+PAT001547,Public,Glasgow City,2024-06-11
+,Private,Norfolk	,2020-05-22
+PAT001549,Public, Highland ,2016-01-25T00:00:00
+PAT001550,PRIVATE,,2017-01-04
+PAT001551,Private,Hertfordshire,25-Jun-2018
+PAT001552,Public,HERTFORDSHIRE,28-Aug-2015
+PAT001552,None,Antrim,02/02/2022
+PAT001553,Private,Angus,
+PAT001554,Public,Anglesey,
+PAT001555,Public,Glamorgan,21-Jun-2014
+pat001556,Public,Flintshire,2021-12-14T00:00:00
+,Public,East Dunbartonshire,2016-04-13
+,Public,East Dunbartonshire,2016-04-13
+PAT001558,Private,North Ayrshire,2016-10-02T00:00:00
+pat001559,Private,East Sussex,2018-06-19T00:00:00Z
+PAT001560,Public,South Ayrshire,2015-03-10T00:00:00Z
+PAT001561,None,DENBIGHSHIRE,2014-09-24T00:00:00
+PAT001562,None,Devon,05-Jun-2016
+PAT001563,public,Cleveland	,2010-11-13
+pat001564,Public,Gloucestershire,20-Apr-2012
+PAT001565,None, East Sussex ,2016-02-12
+PAT001566,Public, Derry and Londonderry ,22-Aug-2023
+1567.0,Public,Lincolnshire,17/03/2017
+PAT001568,Public,North Yorkshire,23/11/2019
+PAT001569,None,Aberdeen City,24022016.0
+PAT1594404,private,Kent,
+PAT001571,Private,Flintshire,2011-02-04
+PAT001572,Public,Caernarvonshire,02-Aug-2016
+,Public,Kent,2012-02-10
+PAT001574,Public,East Dunbartonshire,2021-05-03
+PAT001575,None,East Ayrshire,24/01/2018
+PAT001576,Private,Dorset,2019-06-10T00:00:00Z
+PAT001577,None,Breconshire,09/10/2015
+PAT001578,Private,west lothian,2020-09-20
+PAT001579,,Aberdeenshire,13-Mar-2020
+PAT001580,Public,Nottinghamshire,
+PAT001580,Public,Nottinghamshire,
+PAT001581,Private,Dundee City,2022-06-07T00:00:00Z
+PAT001582,None,South Lanarkshire,2014-03-14T00:00:00Z
+,Private,North Yorkshire,2017-01-20
+PAT001584,None,Stirling,05-Nov-2018
+,Private,North Ayrshire,
+pat001586,None,Fife,2015-10-31t00:00:00
+PAT001587,Public,Dundee City,21-Jul-2024
+PAT001588,,Cumbria,14-Jun-2022
+1589.0,None,Flintshire,2018-01-30T00:00:00Z
+PAT001590,Public,cheshire,28-Jun-2012
+PAT001591,Private,City of Edinburgh,2022-02-26
+PAT001592,None,,2014-06-11T00:00:00Z
+pat001593,Private,Wiltshire,07-Jan-2018
+PAT001594,Private,City of Edinburgh,03-Jan-2014
+PAT001595,,Angus,06/05/2018
+PAT001596,Private,Clackmannanshire,2022-05-15
+PAT001597,None,Antrim,2016-07-21T00:00:00
+PAT001598,Private,Anglesey,04-Jan-2015
+PAT001599,Public,down,08-Jun-2012
+PAT001600,Private,South Yorkshire,01-Jun-2017
+PAT001601,Public,shetland islands,2019-07-23T00:00:00Z
+pat001602,None,Angus,26-Apr-2013
+PAT001603,None,,16-Mar-2021
+PAT001604,None,North Yorkshire,2023-07-16
+PAT001605,Private,,2013-12-20T00:00:00Z
+PAT001606,Public,Fermanagh,2022-06-19T00:00:00Z
+PAT001607,Public,Caernarvonshire,2015-09-08
+PAT001608,None,South Yorkshire,2015-05-29
+PAT001609,PRIVATE,Northamptonshire,2021-12-22T00:00:00Z
+pat001610,Public,,28/06/2024
+PAT001611,None,Merionethshire,2010-09-11T00:00:00Z
+PAT001612,None,Highland,2015-06-27
+PAT001613,Public,Midlothian,12-jul-2023
+PAT001613,Public,Midlothian,12-jul-2023
+PAT001614,Public,Breconshire,2013-10-12
+1615.0,None,West Midlands,2012-09-05T00:00:00Z
+,Public,South Ayrshire,2018-06-28T00:00:00Z
+1617.0,None,,25/03/2022
+PAT001618,public,West Berkshire,2019-02-07T00:00:00Z
+PAT001619,,Cleveland,2022-08-01
+PAT001620,,Argyll and Bute,12/09/2010
+PAT001621,Public,Cheshire,08/02/2011
+PAT001622,,Devon,27/09/2018
+PAT001623,Private,Oxfordshire,2022-02-24
+pat001624,Public,Inverclyde,14-MAR-2024
+PAT001625,Private,Somerset	,2012-07-23T00:00:00Z
+,Public,Inverclyde,13/08/2017
+PAT001627,None,Surrey,17-Dec-2016
+1628.0,Public,Perth and Kinross,05-Jul-2020
+PAT001629,Private,Dorset	,
+pat001630,Private,merseyside,2019-06-16
+PAT001631,None,East Renfrewshire,2011-03-15T00:00:00
+PAT001632,,Dundee City,07-Sep-2014
+PAT001633,None,,2013-08-13
+PAT001634,Public,Merseyside,
+PAT001635,Private,Anglesey,08/04/2023
+,None,North Lanarkshire,06/10/2012
+PAT001637,None,Kent,2018-06-28
+PAT001638,Public,Merionethshire,17/11/2020
+PAT001639,Private,buckinghamshire,2021-06-11T00:00:00
+,Public,,2018-11-19
+,Private,Denbighshire,
+PAT5215258,,Antrim,06/01/2021
+PAT001643,Private,Shropshire,06/09/2022
+PAT001644,None,East Renfrewshire,17-Nov-2015
+1645.0,None,Glasgow City,18/07/2013
+PAT001646,None,East Renfrewshire,2014-03-22
+1647.0,Public,clackmannanshire,
+PAT001648,,Orkney Islands,2013-05-06T00:00:00
+PAT001649,Private,North Yorkshire,16-Dec-2022
+PAT001650,Public,,27/06/2012
+PAT001651,Private,Antrim,2022-05-20T00:00:00
+PAT001652,Private,Highland,14/07/2024
+PAT001653,None, WEST DUNBARTONSHIRE ,2020-06-21
+PAT3836473,Private,EAST AYRSHIRE,09-Nov-2023
+PAT001655,Private, Warwickshire ,29-Apr-2017
+PAT001656,Private,Essex,2012-03-31T00:00:00
+pat001657,None,Radnorshire,26/05/2023
+PAT001658,None,glasgow city,14/08/2018
+PAT001659,None,Northamptonshire,16-Jul-2021
+PAT001660,,Staffordshire,2014-08-03
+pat001661,None,Somerset,09-Mar-2012
+1662.0,Public,Radnorshire,2019-07-13
+PAT001663,None,WEST MIDLANDS,27-OCT-2014
+PAT001664,Public,Monmouthshire,2018-04-11T00:00:00
+1665.0,None,,2024-03-29
+PAT001666,None,,03/03/2014
+PAT001666,,Clackmannanshire,
+,Public,Orkney Islands,
+pat001668,None,West Berkshire,2023-07-18
+pat001669,None,North Lanarkshire,19-Jul-2017
+pat001669,None,North Lanarkshire,19-Jul-2017
+pat001670,Public,ESSEX,04/12/2015
+pat001671,None,,2021-04-14T00:00:00Z
+PAT001672,None,Tyrone,2014-03-23
+PAT001673,Public, South Lanarkshire ,
+PAT001674,none,Norfolk,2019-08-11
+PAT001675,Public,Cumbria,
+PAT001675,Public,Cumbria,
+,None,East Sussex,2017-06-09
+PAT001677,None,Caernarvonshire,21-Apr-2019
+,Private,Derry and Londonderry,17/01/2023
+PAT001679,private,Wiltshire,01-Sep-2016
+PAT001680,PUBLIC,Worcestershire,13-Oct-2020
+PAT001681,Private,Shetland Islands,21/07/2021
+PAT001682,None,Armagh,04-sep-2014
+PAT001683,Private,Nottinghamshire,15/01/2023
+PAT001684,None,Lincolnshire,
+PAT001685,Public,Stirling,05-Nov-2015
+pat001686,none,City of Edinburgh,2016-07-01
+pat001687,Private,North Ayrshire,2012-10-20T00:00:00
+,Public,Aberdeenshire,2011-07-19
+PAT001689,None,Durham,08-Dec-2020
+PAT001690,Private,Denbighshire,2023-11-01T00:00:00
+PAT001690,Private,Denbighshire,2023-11-01T00:00:00
+PAT001691,Private, Radnorshire ,27/12/2021
+PAT001692,None,Derbyshire,06/06/2023
+PAT001693,None,Radnorshire,2015-03-01
+PAT001694,None,Stirling,2011-10-04T00:00:00
+,NONE,,
+PAT001696,Public,inverclyde,21-Dec-2012
+PAT001697,None,CHESHIRE,2021-12-29T00:00:00
+PAT001698,None,CITY OF EDINBURGH,21/07/2016
+PAT001699,Private,Montgomeryshire,2023-09-09
+PAT001700,None,West Dunbartonshire,2013-07-29T00:00:00Z
+PAT001700,None,West Dunbartonshire,2013-07-29T00:00:00Z
+,Public,EAST DUNBARTONSHIRE,15/08/2014
+PAT001701,Public,Gloucestershire,22/12/2011
+PAT001702,None,Moray	,2017-11-23T00:00:00
+PAT001703,Public,West Dunbartonshire,2012-03-20
+1704.0,Public,Breconshire,30/06/2014
+,Public,North Ayrshire,2011-07-02T00:00:00Z
+PAT001706,Public,West Yorkshire,72019.0
+PAT001707,None, Anglesey ,30/12/2011
+PAT001708,Public,Devon,18022024.0
+,Private,highland,2014-05-07T00:00:00Z
+PAT001710,Private,Eilean Siar,21-Dec-2011
+PAT2055369,Public,Derry and Londonderry,
+PAT001712,None,Gloucestershire,01/11/2018
+,None,Derbyshire,2013-11-25
+PAT001714,None,West Yorkshire,14/08/2014
+PAT001715,,Renfrewshire,2013-04-12
+PAT001716,Public,EILEAN SIAR,2016-06-08T00:00:00Z
+PAT001717,None,Highland,
+,None,cumbria,20-Aug-2018
+pat001719,None,Angus,2023-02-06
+PAT001720,Private, cardiganshire ,12/03/2014
+PAT001721,Private,Nottinghamshire,
+PAT001722,None,Merseyside	,
+PAT001723,None,Durham,20/04/2012
+,Private,Tyrone,02-Jul-2011
+PAT001725,Private,Midlothian,12/11/2021
+PAT001726,Private,Warwickshire,2019-01-18T00:00:00Z
+PAT001727,,West Yorkshire,2013-06-26
+PAT9133921,Public,Lincolnshire,06/11/2010
+PAT001729,PRIVATE,Durham,20/03/2022
+PAT001730,Public,Staffordshire,2024-02-06
+PAT001731,Private,Glamorgan,29-Aug-2023
+PAT001731,Private,Glamorgan,29-Aug-2023
+PAT001732,PRIVATE,Cumbria,18-Aug-2013
+,None,Suffolk,02-Dec-2020
+PAT001734,Private,Nottinghamshire,19-Nov-2011
+PAT001735,Private,Devon,02/09/2012
+PAT001736,Private,Norfolk	,08-Dec-2019
+PAT001737,Private,Antrim,2011-02-26
+PAT001738,None,Cambridgeshire,2020-08-24T00:00:00Z
+PAT001739,Public,Dorset,14/08/2020
+1740.0,Public,Angus,19-jul-2011
+pat001741,,Derbyshire,2011-03-23
+PAT001742,,Suffolk,2019-02-21T00:00:00Z
+1743.0,,fife,16/02/2021
+PAT001744,Private,City of Edinburgh,
+PAT001745,Public,,20-Aug-2022
+PAT001746,NONE,Midlothian,20-Oct-2021
+PAT001747,Public,Fermanagh,13-Jul-2016
+PAT001748,Private,Renfrewshire,2023-09-08T00:00:00Z
+PAT001749,Public,Kent,07/12/2014
+PAT001750,None,East Lothian,03-Oct-2017
+PAT001751,Public,North Yorkshire,04/08/2012
+PAT001752,,South Ayrshire,2011-06-13
+PAT001753,Public,,25-Sep-2015
+PAT001754,Public,North Ayrshire,02-Nov-2012
+PAT001755,None,Hertfordshire,22/09/2013
+PAT001756,Private,Buckinghamshire,09/08/2014
+1757.0,public,Hampshire	,24-Apr-2017
+1757.0,Public,East Dunbartonshire,2013-08-13T00:00:00
+PAT001758,Private,Cumbria,
+,Public,Hampshire,23-Apr-2018
+PAT001760,none,City of Edinburgh,07/07/2020
+PAT001761,Private,Wiltshire,26-Sep-2022
+,Private,Montgomeryshire,2022-01-23T00:00:00
+PAT001763,public,Cardiganshire,2024-01-24T00:00:00Z
+PAT001764,None,West Yorkshire,2013-02-22T00:00:00
+1765.0,None,,2018-04-16T00:00:00
+,Private,Breconshire,28-Feb-2019
+PAT001766,None,Antrim,2021-04-17T00:00:00
+PAT001767,Public,Durham,17-Oct-2020
+PAT001768,public,Shetland Islands,2013-09-20
+PAT001769,Private,Carmarthenshire,30/01/2022
+PAT001770,,South Ayrshire,2019-12-26
+PAT001771,Private,East Sussex,02-Jul-2023
+PAT001772,None,Pembrokeshire,23042018.0
+PAT001773,PRIVATE,Moray,24-Apr-2015
+PAT001774,Public,South Lanarkshire	,12/01/2017
+PAT001775,None,WEST BERKSHIRE,2017-09-30T00:00:00Z
+,None,Shropshire,27-Apr-2021
+PAT001777,Public,Caernarvonshire,2012-03-22T00:00:00
+PAT001778,Private,Stirling,2012-06-20
+pat001779,Private,Down,08-Nov-2018
+PAT001780,Public,Tyne and Wear,05-Sep-2016
+PAT001781,Public,Dorset,2018-11-10
+PAT001782,None,Midlothian,18/04/2017
+,public,Cardiganshire,27/09/2018
+PAT001784,private,GREATER LONDON,2018-02-12t00:00:00z
+PAT001785,Private,Bedfordshire,2014-03-22T00:00:00
+PAT001786,Private, Suffolk ,2020-06-19T00:00:00Z
+PAT001786,None,Renfrewshire,27/11/2012
+PAT001787,None,West Dunbartonshire,2013-03-26T00:00:00
+PAT001788,Public,Derbyshire,27/07/2015
+PAT001789,None,Cardiganshire,2011-04-04T00:00:00
+PAT001790,Public,,2022-02-16
+,Public,WEST BERKSHIRE,2019-08-29
+PAT001792,None,Renfrewshire,2024-02-19T00:00:00Z
+,None,Denbighshire,
+PAT001794,Private,South Lanarkshire,2017-06-29T00:00:00Z
+PAT001795,None,Angus,5082020.0
+PAT001796,,East Sussex,23/12/2021
+PAT001797,Private,Kent,2012-01-19T00:00:00
+PAT001798,Private,Hampshire,26/08/2016
+PAT001799,Public,,2012-12-27
+PAT001800,none,Dorset,2014-03-11T00:00:00Z
+PAT001801,Private,Shropshire,20/03/2015
+PAT001802,Private,Merseyside,24/04/2012
+PAT001803,Public,,12/01/2017
+PAT001804,None,Renfrewshire	,09/03/2024
+PAT001805,Public,Derbyshire,2016-12-05T00:00:00
+PAT001806,Private,Cleveland,16-Mar-2021
+PAT001807,Private,City of Edinburgh,05-Jul-2014
+PAT001808,Private,North Yorkshire,
+PAT001809,private,North Yorkshire,2021-07-01T00:00:00
+PAT001810,Private,,11/07/2023
+PAT001811,None,East Renfrewshire,2013-08-24
+PAT001812,Public,Clackmannanshire,2013-11-05T00:00:00
+PAT001813,Private,,
+PAT001814,none,Lincolnshire,04-May-2011
+PAT001815,Public,Derbyshire,25-Sep-2021
+,Public,Falkirk,2017-04-05
+PAT001817,Public,ABERDEENSHIRE,29-Mar-2023
+PAT001818,None,Perth and Kinross,04-Apr-2021
+PAT001819,Public,devon,01-Mar-2016
+PAT001820,Private,Perth and Kinross,
+PAT001821,Private,,29/08/2016
+PAT001822,, Flintshire ,12/01/2016
+,Public,Shropshire,11/07/2012
+PAT001823,Private,Tyrone,08-Mar-2021
+PAT001824,Private,East Ayrshire,09/01/2019
+PAT001825,Public,Derry and Londonderry,03/09/2017
+PAT001826,None,Clackmannanshire,2021-02-12
+PAT001827,private,Cumbria,2014-08-24
+pat001828,Private,Carmarthenshire,232020.0
+PAT001829,None,South Yorkshire,2021-12-10T00:00:00
+,None,South Ayrshire,03/09/2018
+,None,South Ayrshire,03/09/2018
+PAT001831,Public,Nottinghamshire	,16/08/2014
+PAT001832,Private,Dorset	,2014-10-31
+PAT001833,Private,Orkney Islands,2022-02-21T00:00:00
+PAT001834,public,Montgomeryshire,2024-06-14
+PAT001835,, East Ayrshire ,05/01/2017
+PAT001836,,Aberdeenshire,2017-11-01
+PAT001837,Public,Cambridgeshire,2014-04-04T00:00:00Z
+PAT001838,,,14-Nov-2020
+PAT001839,Public,,18-Nov-2011
+PAT001840,,Essex,
+PAT001841,None,West Lothian,2021-06-24
+PAT001842,None,Renfrewshire,2019-11-24T00:00:00Z
+PAT001843,NONE,Angus,2023-07-24T00:00:00Z
+PAT001844,Public,,14-Feb-2022
+PAT001845,None,MIDLOTHIAN,2017-06-18T00:00:00
+PAT001846,None,Midlothian,2019-12-20
+PAT001847,Public,Northamptonshire,25/01/2015
+PAT001848,none,Merionethshire,
+PAT001849,Private,West Midlands,2020-12-28
+pat001850,Public,Lancashire,2022-02-16
+pat001851,Private,East Renfrewshire,2021-03-26T00:00:00Z
+pat001852,Public,West Berkshire,03/01/2017
+PAT001853,Public,Tyrone,22-Feb-2018
+PAT001854,public, South Ayrshire ,08/02/2017
+,Public,Cumbria,2018-04-19T00:00:00
+PAT001856,Public, Fermanagh ,14-May-2013
+PAT001857,Private,Buckinghamshire,03/01/2017
+PAT001858,None,East Sussex,22/11/2021
+PAT001858,Private,Bedfordshire,24/05/2016
+PAT001859,None,Shetland Islands,08-Aug-2020
+PAT001860,Private,Falkirk,
+PAT001861,PUBLIC,Cheshire,08-Aug-2015
+PAT001862,none,Cambridgeshire,28-Sep-2016
+PAT001862,none,Cambridgeshire,28-Sep-2016
+PAT001863,Private,Kent	,
+PAT001864,Private,Suffolk,2019-06-05T00:00:00
+,None,Durham,04-Sep-2023
+PAT001866,,Hampshire,25/05/2022
+PAT001867,None,Glasgow City,2017-10-27
+PAT001868,None,Dundee City	,24-nov-2018
+PAT001869,None,Midlothian,2016-02-09
+PAT001870,None,,2017-10-10
+PAT001871,Public,Pembrokeshire,
+PAT001872,Public,Oxfordshire,30-Apr-2024
+PAT001873,Public,North Yorkshire,
+pat001874,NONE,Clackmannanshire,2012-01-15T00:00:00
+,,Breconshire,04-Mar-2017
+,None,Hertfordshire,2014-06-20T00:00:00
+,None,Tyne and Wear,2023-02-20T00:00:00Z
+PAT001878,None,Cardiganshire,2014-10-02T00:00:00
+pat001879,Public,Oxfordshire	,2012-12-19
+PAT001880,Private,,29/07/2017
+PAT001881,,South Ayrshire,13/09/2015
+,Private,West Yorkshire,2022-01-31T00:00:00Z
+pat001883,None,East Renfrewshire	,2016-05-20T00:00:00Z
+,None,West Sussex,06/05/2022
+,None,Devon,13/06/2018
+PAT001886,Private,East Lothian,2013-02-07
+PAT001887,None,Caernarvonshire,2022-01-18
+PAT001888,Private,Orkney Islands,22/09/2011
+PAT001889,Public,Shetland Islands,03/09/2019
+PAT001890,Private,South Ayrshire,15/11/2018
+PAT001891,Private,Cambridgeshire,
+PAT001892,NONE,Gloucestershire,04-Aug-2011
+PAT001893,None,Surrey,06-Mar-2016
+PAT001894,Public,Wiltshire,2012-01-16
+,,Cardiganshire,2023-07-27T00:00:00
+PAT001896,,Clackmannanshire,2016-03-13
+,Private,Lancashire,2022-12-07T00:00:00
+PAT001898,PUBLIC,Anglesey,2016-03-20
+PAT001899,Private,Flintshire,
+PAT001900,Public,east renfrewshire,21/04/2016
+PAT001901,Private,Greater London,25/07/2019
+,None,Northamptonshire,2022-09-25
+pat001903,None,,2015-10-13
+pat001904,Public,Lincolnshire,
+PAT001905,Public,East Lothian,
+PAT001906,Private,Northumberland,11/07/2015
+PAT001907,Public,Warwickshire,09/01/2021
+pat001908,None,West Sussex,2018-01-06T00:00:00
+PAT001909,Private,Cleveland	,09-Mar-2014
+PAT001910,Public,Lincolnshire,2011-03-06
+PAT001911,Private,Cardiganshire,27-Jun-2021
+PAT001912,Private,West Dunbartonshire,2020-05-02
+PAT001913,Public,Flintshire,30-JAN-2022
+PAT001914,PUBLIC,West Midlands,2018-11-02T00:00:00Z
+PAT001915,Private,DOWN,2013-09-11T00:00:00
+PAT001916,None,Fermanagh,20-Feb-2017
+pat001917,None, South Yorkshire ,14-Nov-2023
+PAT001918,public,Argyll and Bute,2023-02-27
+PAT001919,None,,2022-08-23
+PAT001920,None,Gloucestershire,01-Jul-2014
+PAT001921,None,Scottish Borders,11/04/2011
+PAT001922,Private,Fife,2020-06-13
+PAT001923,Public,,2012-11-03
+1924.0,None,Cheshire,03-Sep-2024
+PAT001925,None,,03/02/2024
+pat001926,private,Merionethshire,2015-01-26
+PAT001927,Private,,2021-06-20
+PAT001928,Public,dorset,10/07/2017
+PAT001929,None,East Ayrshire,23/05/2021
+,Private,,22-Mar-2023
+PAT001931,Private,Orkney Islands,2011-05-30
+PAT001932,Private,Derry and Londonderry,07/04/2023
+PAT001933,Public,North Yorkshire,07/04/2013
+PAT001934,None,Orkney Islands,2024-05-09
+PAT001935,Public,Glasgow City,2023-07-13T00:00:00Z
+PAT001936,Private, Northumberland ,
+PAT001937,, South Yorkshire ,11/03/2013
+PAT001938,None,Cambridgeshire,2011-04-04t00:00:00z
+PAT001939,Public,,2022-05-13
+PAT001940,None,South Ayrshire,25-Apr-2021
+PAT001941,None,Shropshire	,2011-12-13
+PAT001942,Private,Hampshire	,20240423000000.0
+PAT001943,None,Lincolnshire,30-Sep-2010
+PAT001944,Private,,13-Nov-2019
+1945.0,Public,Perth and Kinross,10-Aug-2017
+PAT001946,Private,Pembrokeshire,14/09/2010
+pat001947,Private,PEMBROKESHIRE,2024-04-26
+pat001948,Private,Worcestershire,08/02/2011
+pat001948,Private,Worcestershire,08/02/2011
+PAT001949,Public,Renfrewshire,2018-03-02
+PAT001950,Public, Eilean Siar ,13/01/2014
+PAT001951,Public,Greater Manchester,2016-09-17T00:00:00Z
+PAT001952,Private,city of edinburgh,19/01/2018
+PAT001953,Public,Angus,26-Jan-2023
+PAT001954,,East Renfrewshire,2020-10-09
+pat001955,Public,Cambridgeshire	,04-Jan-2023
+PAT001956,Private,East Ayrshire,2024-03-23T00:00:00Z
+PAT001957,Private,Renfrewshire,2017-08-12
+PAT001958,None,MERSEYSIDE,2015-02-16T00:00:00Z
+PAT001959,Private,Down,17-Feb-2014
+PAT001960,Private,Perth and Kinross,2024-01-30
+PAT001961,None,Shetland Islands,2012-05-05
+PAT001962,Public,,01/08/2020
+PAT001963,None,Argyll and Bute,26/11/2011
+PAT001964,Private, DUNDEE CITY ,2011-12-18
+PAT001965,Private,West Lothian,08-Jun-2018
+1966.0,Public,Derbyshire,05/06/2011
+PAT001967,Private,Pembrokeshire,15-NOV-2017
+PAT001968,None,Midlothian,04-Jun-2017
+PAT001969,None,Gloucestershire,29102023.0
+PAT001970,Private,Cardiganshire,2021-04-13T00:00:00
+PAT001971,Public,Derry and Londonderry,2013-07-29
+PAT001972,Public,,04/11/2012
+PAT001973,Public,West Dunbartonshire,10/09/2011
+pat001974,Private,Devon,08/08/2020
+pat001974,Public,Argyll and Bute,2024-02-19
+PAT001975,Private,Breconshire,30/04/2018
+,Private,dundee city,07-Oct-2019
+,Private,dundee city,07-Oct-2019
+,Private,,02/12/2016
+PAT001978,None,perth and kinross,2020-06-09
+pat001979,None,Renfrewshire,2024-03-06
+,Public,Essex,09-Apr-2012
+PAT001981,None,Fife,2024-01-13
+PAT001982,None,East Ayrshire,2023-05-14T00:00:00
+PAT001983,Public, East Dunbartonshire ,29/03/2018
+1984.0,Public,West Midlands,2019-11-10T00:00:00
+PAT001985,private,Cheshire,2011-07-14
+PAT001986,None,Scottish Borders	,2012-02-20
+PAT001987,Private,East Lothian,06/09/2023
+PAT001988,Private,Aberdeenshire,26-Aug-2022
+1989.0,Public,Down,17-Oct-2015
+PAT001990,,Dumfries and Galloway,2020-12-05
+PAT001991,None,North Lanarkshire,26/06/2021
+PAT001992,Private,Perth and Kinross,06-Oct-2012
+pat001993,Private,Suffolk,09-Aug-2023
+PAT001994,Private,PERTH AND KINROSS,2011-05-27
+,Private,South Ayrshire,
+PAT001996,Public,CLACKMANNANSHIRE,2017-06-24T00:00:00Z
+PAT001997,Public,Greater Manchester,2019-03-10
+pat001998,None,Nottinghamshire,2021-01-08t00:00:00z
+PAT001999,Public,Somerset,13-Aug-2021
+PAT002000,Public,Cambridgeshire,30/07/2015
