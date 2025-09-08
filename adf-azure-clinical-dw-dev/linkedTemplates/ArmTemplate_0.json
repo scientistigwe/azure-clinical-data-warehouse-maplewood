@@ -130,7 +130,7 @@
 							"type": "Expression"
 						},
 						"folderPath": {
-							"value": "@concat('parquet/', dataset().schemaname, '/', dataset().tablename, '/', formatDateTime(utcNow(), 'yyyyMMdd-HHmmss'))",
+							"value": "@concat('parquet/', dataset().schemaname, '/', dataset().tablename)",
 							"type": "Expression"
 						},
 						"fileSystem": "bronze"
@@ -321,11 +321,11 @@
 											"type": "DatasetReference",
 											"parameters": {
 												"schemaname": {
-													"value": "item().TABLE_SCHEMA",
+													"value": "@item().TABLE_SCHEMA",
 													"type": "Expression"
 												},
 												"tablename": {
-													"value": "item().TABLE_NAME",
+													"value": "@item().TABLE_NAME",
 													"type": "Expression"
 												}
 											}
