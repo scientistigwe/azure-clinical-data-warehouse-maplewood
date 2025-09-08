@@ -23,7 +23,7 @@
 					"type": "Expression"
 				},
 				"folderPath": {
-					"value": "@concat('parquet/', dataset().schemaname, '/', dataset().tablename, '/', formatDateTime(utcNow(), 'yyyyMMdd-HHmmss'))",
+					"value": "@concat('parquet/', dataset().schemaname, '/', dataset().tablename)",
 					"type": "Expression"
 				},
 				"fileSystem": "bronze"
