@@ -1,9 +1,0 @@
-{
-	"name": "adf-azure-clinical-dw-dev",
-	"location": "uksouth",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "a4cc0aa7-b56b-4d33-a90a-dfed1d7dc92c",
-		"tenantId": "2e1bcc6c-1a83-42aa-b1ab-e74095c031ae"
-	}
-}

@@ -1,0 +1,196 @@
+{
+  "generation_timestamp": "2025-10-07T07:45:07.499855",
+  "configuration": {
+    "base_population": 10000,
+    "years_of_data": 2,
+    "trusts": 10,
+    "practices": 50
+  },
+  "dataset_summary": {
+    "patients": {
+      "record_count": 10800,
+      "columns": [
+        "patient_id",
+        "nhs_number",
+        "date_of_birth",
+        "gender",
+        "ethnicity",
+        "deprivation_decile",
+        "registered_practice",
+        "age_at_start",
+        "created_date",
+        "postcode_district"
+      ],
+      "memory_usage_mb": 4.94
+    },
+    "trusts": {
+      "record_count": 10,
+      "columns": [
+        "trust_code",
+        "trust_name",
+        "trust_type",
+        "region",
+        "commissioner_code",
+        "beds",
+        "annual_income"
+      ],
+      "memory_usage_mb": 0.0
+    },
+    "practices": {
+      "record_count": 50,
+      "columns": [
+        "practice_code",
+        "practice_name",
+        "list_size",
+        "partners",
+        "commissioning_region",
+        "postcode_district"
+      ],
+      "memory_usage_mb": 0.01
+    },
+    "sus_episodes": {
+      "record_count": 109668,
+      "columns": [
+        "episode_id",
+        "patient_id",
+        "nhs_number",
+        "trust_code",
+        "admission_date",
+        "discharge_date",
+        "admission_method",
+        "admission_source",
+        "discharge_destination",
+        "length_of_stay",
+        "primary_diagnosis",
+        "secondary_diagnoses",
+        "primary_procedure",
+        "secondary_procedures",
+        "hrg_code",
+        "consultant_code",
+        "specialty",
+        "ward_code",
+        "created_timestamp"
+      ],
+      "memory_usage_mb": 91.21
+    },
+    "ecds_attendances": {
+      "record_count": 68564,
+      "columns": [
+        "attendance_id",
+        "patient_id",
+        "nhs_number",
+        "trust_code",
+        "arrival_datetime",
+        "departure_datetime",
+        "triage_category",
+        "presenting_complaint",
+        "discharge_destination",
+        "time_to_treatment_mins",
+        "total_time_mins",
+        "investigations",
+        "referred_to_specialist",
+        "safeguarding_concern",
+        "created_timestamp"
+      ],
+      "memory_usage_mb": 31.85
+    },
+    "mhsds_referrals": {
+      "record_count": 1610,
+      "columns": [
+        "referral_id",
+        "patient_id",
+        "nhs_number",
+        "referral_date",
+        "referral_source",
+        "primary_diagnosis",
+        "care_cluster",
+        "urgency",
+        "initial_honos_score",
+        "latest_honos_score",
+        "total_contacts",
+        "first_contact_date",
+        "last_contact_date",
+        "discharge_date",
+        "discharge_reason",
+        "risk_assessment",
+        "created_timestamp"
+      ],
+      "memory_usage_mb": 1.02
+    },
+    "csds_contacts": {
+      "record_count": 8543,
+      "columns": [
+        "contact_id",
+        "patient_id",
+        "nhs_number",
+        "contact_date",
+        "service_type",
+        "service_name",
+        "care_professional",
+        "contact_setting",
+        "contact_duration_mins",
+        "contact_mode",
+        "care_activity",
+        "onward_referral",
+        "safeguarding_concern",
+        "created_timestamp"
+      ],
+      "memory_usage_mb": 4.8
+    },
+    "prescriptions": {
+      "record_count": 236849,
+      "columns": [
+        "prescription_id",
+        "patient_id",
+        "nhs_number",
+        "practice_code",
+        "prescription_date",
+        "bnf_code",
+        "bnf_name",
+        "quantity",
+        "net_ingredient_cost",
+        "actual_cost",
+        "prescriber_code",
+        "prescription_items",
+        "created_timestamp"
+      ],
+      "memory_usage_mb": 112.63
+    },
+    "social_care": {
+      "record_count": 101,
+      "columns": [
+        "package_id",
+        "patient_id",
+        "nhs_number",
+        "package_type",
+        "package_name",
+        "start_date",
+        "end_date",
+        "status",
+        "weekly_cost",
+        "assessment_outcome",
+        "care_provider",
+        "hours_per_week",
+        "review_date",
+        "created_timestamp"
+      ],
+      "memory_usage_mb": 0.06
+    },
+    "patient_journeys": {
+      "record_count": 9996,
+      "columns": [
+        "patient_id",
+        "journey_start_date",
+        "journey_end_date",
+        "total_events",
+        "total_cost",
+        "care_settings_used",
+        "care_transitions",
+        "integrated_care_episode",
+        "high_intensity",
+        "created_timestamp"
+      ],
+      "memory_usage_mb": 4.65
+    }
+  }
+}
