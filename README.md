@@ -1,4 +1,4 @@
-# Azure Clinical Data Warehouse Pipeline
+# Maplewood General Hospital - Azure Data Warehouse Pipeline
 
 ## Project Description
 This project demonstrates a **production-like, end-to-end clinical data warehouse pipeline on Microsoft Azure**.  
@@ -6,17 +6,19 @@ It simulates **clinical registry data (FHIR + CSV)**, ingests it into a **data l
 
 The pipeline is designed with **healthcare standards (FHIR, OMOP CDM)** in mind and includes a lightweight **Clinical Decision Support (CDS) demo** inspired by Arden/GEM rules. It also illustrates **governance, de-identification, and security patterns** required for handling sensitive health data.
 
+**Commissioned by:** Maplewood General Hospital - A fictional regional healthcare provider seeking to modernize their data infrastructure for better patient outcomes and operational efficiency.
+
 ---
 
-## Objectives
-- Build a **cloud-native healthcare data pipeline** on Azure.  
-- Demonstrate **bronze → silver → gold** data lakehouse architecture.  
-- Simulate **FHIR JSON and registry CSVs** as clinical data sources.  
-- Implement **ETL/ELT transforms** using Databricks/Synapse.  
-- Curate data into **analytics-ready warehouse schemas** (OMOP-inspired).  
-- Deliver **visual insights** via Power BI reports.  
-- Showcase a **CDS rules engine microservice** for patient alerts.  
-- Follow **production best practices**: infra as code, monitoring, security, Purview governance.
+## Global Objective: Addressing Resource Constraints, Patient Flow Inefficiencies, and Rising Costs
+Maplewood General Hospital aims to leverage integrated clinical data analytics to tackle critical operational challenges: optimizing limited resources (e.g., beds and staffing), streamlining patient flows across care settings, and controlling escalating healthcare costs through data-driven insights and predictive modeling.
+
+### Specific Objectives by Dataset Focus
+- **Bed Capacity and Utilization Optimization** (Trusts, SUS Episodes): Predict occupancy trends, reduce length of stay, and allocate beds efficiently by specialty to address shortages and overcrowding.
+- **Emergency Waiting Time Reduction** (ECDS Attendances): Analyze triage categories, treatment delays, and discharge destinations to minimize ED bottlenecks and improve throughput.
+- **High-Cost Patient Management** (Patient Journeys, Prescriptions): Identify at-risk patients, optimize prescribing patterns, and track total care costs to prevent readmissions and manage expenses.
+- **Care Coordination and Transitions** (MHSDS Referrals, CSDS Contacts, Social Care): Integrate mental health, community services, and social care data to ensure smooth referrals, reduce fragmented care, and enhance patient outcomes.
+- **Population Health and Equity Insights** (Patients, Practices): Analyze demographics (e.g., deprivation, ethnicity) and regional data to target preventive care and address access disparities.
 
 ---
 
