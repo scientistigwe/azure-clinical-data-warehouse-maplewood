@@ -24,14 +24,42 @@ Maplewood General Hospital aims to leverage integrated clinical data analytics t
 
 ## Architecture
 ```mermaid
-flowchart LR
-  A["Simulated Clinical Sources (FHIR JSON, CSV)"] -->|ADF / Function| B["Azure Data Lake Gen2 - Bronze"]
-  B --> C["Databricks / ADF - Transform to Silver"]
-  C --> D["Curated Gold Layer - ADLS / Delta Tables"]
-  D --> E["Azure Synapse SQL - Curated Warehouse"]
-  E --> F["Power BI Reports - Visual Analytics"]
-  E --> G["CDS Engine (Arden/GEM Rules, CDS Hooks)"]
+flowchart TD
+  A["SQL Server (Source DB)"] -->|Secure Credentials| B["Key Vault + Active Directory"]
+  A -->|CDC| C["Event Hub (Kafka for Events)"]
 
-  subgraph Governance_and_Security
-    B & C & D & E --> H["Purview / Monitor / Key Vault / RBAC"]
+  subgraph Ingestion_and_Validation
+    C -->|Pre-Staging Integrity Checks| D["Databricks (Orchestrate Process)"]
   end
+
+  subgraph Data_Lake_Layers
+    D -->|Raw Data| E["ADLS Gen2 - Bronze Layer"]
+    E -->|ETL Transform + SCD Type 2| F["Databricks/ADF - Silver Layer"]
+    F -->|Cleaned Data| G["ADLS Gen2 - Silver Layer"]
+    G -->|Post-Staging Integrity Checks| H["ADF (Gold Layer)"]
+    H -->|Analytics-Ready| I["ADLS Gen2 - Gold Layer"]
+  end
+
+  subgraph Warehousing_and_Visualization
+    I -->|Load| J["Azure Synapse (Warehousing)"]
+    J -->|Query & Visualize| K["Power BI (Visualization)"]
+  end
+
+  subgraph Security_and_Governance
+    B & C & D & E & F & G & H & I & J --> L["Purview / Monitor / RBAC + Schema Change Handling"]
+  end
+```
+
+**Diagram Explanation**: This flowchart visualizes the end-to-end Azure data warehouse pipeline for Maplewood General Hospital. Data flows unidirectionally from the SQL Server source through ingestion, validation, layered storage (Bronze → Silver → Gold), and analytics. Components are grouped into subgraphs for clarity: Ingestion & Validation handles initial data intake; Data Lake Layers manages storage and transforms; Warehousing & Visualization enables querying and BI; Security & Governance provides cross-cutting protection and monitoring. Arrows indicate data movement, with labels showing key processes like CDC, integrity checks, and ETL.
+
+## Implementation Steps
+1. **Ingestion and Validation**: Set up data sources (SQL Server), Event Hub for streaming, and Databricks for orchestration and pre-staging checks.
+2. **Security and Governance**: Implement Key Vault, Active Directory, Purview, Monitor, RBAC, and schema change handling as a foundational layer across all steps.
+3. **Data Lake Layers**: Configure ADLS Gen2 Bronze/Silver/Gold layers with Databricks/ADF for ETL transforms, SCD Type 2, and post-staging checks.
+4. **Warehouse and Visualization**: Deploy Azure Synapse for warehousing and Power BI for dashboards and analytics.
+
+---
+```
+```
+```
+```
