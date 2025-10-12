@@ -1,0 +1,7 @@
+{
+	"name": "SHIR-maplewood-edw",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Self hosted Integration Runtime for Maplewood enterprise data warehouse "
+	}
+}
