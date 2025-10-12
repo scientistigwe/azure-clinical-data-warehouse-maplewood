@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "azure-edw-marplewood"
+version = "0.1.0"
+description = "Azure clinical data warehouse pipeline for Maplewood General Hospital, featuring custom CDC, ETL transforms, data lake layers, and Power BI analytics."
+authors = ["Chibueze Igwe <scientistigwe@gmail.com>"]
+readme = "README.md"
+
+packages = [{include = "app"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.0.0"
+pyodbc = "^5.0.0"
+azure-identity = "^1.15.0"
+azure-keyvault-secrets = "^4.7.0"
+azure-storage-blob = "^12.19.0"
+sqlalchemy = "^2.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+black = "^23.3.0"
+isort = "^5.12.0"
+mypy = "^1.3.0"
+flake8 = "^4.0.0"
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py312']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"

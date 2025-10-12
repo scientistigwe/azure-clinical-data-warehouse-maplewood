@@ -26,7 +26,7 @@ Maplewood General Hospital aims to leverage integrated clinical data analytics t
 ```mermaid
 flowchart TD
   A["SQL Server (Source DB)"] -->|Secure Credentials| B["Key Vault + Active Directory"]
-  A -->|CDC| C["Event Hub (Kafka for Events)"]
+  A -->|Custom Python CDC| C["Event Hub (Kafka for Events)"]
 
   subgraph Ingestion_and_Validation
     C -->|Pre-Staging Integrity Checks| D["Databricks (Orchestrate Process)"]
@@ -50,10 +50,10 @@ flowchart TD
   end
 ```
 
-**Diagram Explanation**: This flowchart visualizes the end-to-end Azure data warehouse pipeline for Maplewood General Hospital. Data flows unidirectionally from the SQL Server source through ingestion, validation, layered storage (Bronze → Silver → Gold), and analytics. Components are grouped into subgraphs for clarity: Ingestion & Validation handles initial data intake; Data Lake Layers manages storage and transforms; Warehousing & Visualization enables querying and BI; Security & Governance provides cross-cutting protection and monitoring. Arrows indicate data movement, with labels showing key processes like CDC, integrity checks, and ETL.
+**Diagram Explanation**: This flowchart visualizes the end-to-end Azure data warehouse pipeline for Maplewood General Hospital. Data flows unidirectionally from the SQL Server source through ingestion, validation, layered storage (Bronze → Silver → Gold), and analytics. Components are grouped into subgraphs for clarity: Ingestion & Validation handles initial data intake; Data Lake Layers manages storage and transforms; Warehousing & Visualization enables querying and BI; Security & Governance provides cross-cutting protection and monitoring. Arrows indicate data movement, with labels showing key processes like CDC, integrity checks, and ETL. *Note: For custom CDC, the Python script (python_cdc.py) can replace Event Hub, capturing deltas via hashing and storing in Blob Storage for ADF to consume.*
 
 ## Implementation Steps
-1. **Ingestion and Validation**: Set up data sources (SQL Server), Event Hub for streaming, and Databricks for orchestration and pre-staging checks.
+1. **Ingestion and Validation**: Set up data sources (SQL Server), Event Hub for streaming, and Databricks for orchestration and pre-staging checks. *Alternative: Use the custom Python CDC script (python_cdc.py) for hash-based delta detection, storing logs in Azure Blob Storage, then integrate with ADF for copying changes to staging.*
 2. **Security and Governance**: Implement Key Vault, Active Directory, Purview, Monitor, RBAC, and schema change handling as a foundational layer across all steps.
 3. **Data Lake Layers**: Configure ADLS Gen2 Bronze/Silver/Gold layers with Databricks/ADF for ETL transforms, SCD Type 2, and post-staging checks.
 4. **Warehouse and Visualization**: Deploy Azure Synapse for warehousing and Power BI for dashboards and analytics.
