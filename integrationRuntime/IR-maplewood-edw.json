@@ -1,0 +1,7 @@
+{
+	"name": "IR-maplewood-edw",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Self-hosted integration runtime for Maplewood Azure Clinical Enterprise Datawarehouse. "
+	}
+}
