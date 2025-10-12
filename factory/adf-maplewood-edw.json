@@ -1,0 +1,9 @@
+{
+	"name": "adf-maplewood-edw",
+	"location": "ukwest",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "66066bf3-bb06-4b7e-bdc0-fc02bdac7966",
+		"tenantId": "5d9e8141-f75c-4014-b4a5-82c45ad9ca37"
+	}
+}
