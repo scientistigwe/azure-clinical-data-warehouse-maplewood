@@ -22,6 +22,22 @@ aio = ["aiohttp (>=3.0)"]
 tracing = ["opentelemetry-api (>=1.26,<2.0)"]
 
 [[package]]
+name = "azure-eventhub"
+version = "5.15.0"
+description = "Microsoft Azure Event Hubs Client Library for Python"
+optional = false
+python-versions = ">=3.8"
+groups = ["main"]
+files = [
+    {file = "azure_eventhub-5.15.0-py3-none-any.whl", hash = "sha256:30f99f2f573b056098aaec50181d7e884fe564e5afe97b7d7a875ed42573c9dc"},
+    {file = "azure_eventhub-5.15.0.tar.gz", hash = "sha256:c22d508b95977edbdbc844d693b9f5403b2c4e4ca075ac38d8dcb5657aba6e89"},
+]
+
+[package.dependencies]
+azure-core = ">=1.27.0"
+typing-extensions = ">=4.0.1"
+
+[[package]]
 name = "azure-identity"
 version = "1.25.1"
 description = "Microsoft Azure Identity Library for Python"
@@ -1269,4 +1285,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.12"
-content-hash = "803ccaa9145b95b4efccbc4586fa9eaef2eb20e537550e6073300af30b9696f1"
+content-hash = "17a3b043c72fe972b9955461faca76ddf5d996bc82de2f4e6b0fece52d8c0859"

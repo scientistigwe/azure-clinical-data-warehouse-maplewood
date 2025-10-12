@@ -59,6 +59,24 @@ flowchart TD
 4. **Warehouse and Visualization**: Deploy Azure Synapse for warehousing and Power BI for dashboards and analytics.
 
 ---
+
+## Enterprise Best Practices for Governance and Security
+This project adheres strictly to enterprise-grade best practices for governance and security, aligned with NHS and healthcare standards (e.g., GDPR, HIPAA). The following 10 points are implemented and followed:
+
+1. **Authentication and Identity Management**: Use Azure Active Directory (AD) with Managed Identities or Service Principals for secure, token-based authentication. Avoid hardcoded credentials.
+2. **Secrets and Key Management**: Store all secrets (connection strings, keys) in Azure Key Vault with soft delete and purge protection enabled.
+3. **Access Control and Authorization**: Implement Role-Based Access Control (RBAC) with least privilege; assign roles like "Key Vault Secrets User" or "Storage Blob Data Contributor" per user/service.
+4. **Data Encryption and Protection**: Encrypt data at rest and in transit using Azure-managed keys; apply Azure Information Protection for data classification and labeling.
+5. **Governance and Compliance**: Use Azure Purview for data cataloging, lineage tracking, and compliance scanning; enforce policies via Azure Policy.
+6. **Monitoring and Auditing**: Enable Azure Monitor and Log Analytics for real-time alerts; integrate with Azure Sentinel for threat detection and audit trails.
+7. **Network Security**: Isolate resources in Virtual Networks (VNets) with private endpoints and firewalls to prevent unauthorized access.
+8. **Change Data Capture (CDC)**: Prefer native Azure tools like Azure SQL CDC or Event Hubs for reliable, secure streaming; custom scripts must use managed identities and secure logging.
+9. **DevOps and CI/CD**: Use Azure DevOps or GitHub Actions for infrastructure as code (IaC) with automated security scans and version control.
+10. **Cost and Scalability**: Monitor with Azure Cost Management; enable auto-scaling and reserved instances for efficient resource use.
+
+These practices ensure the pipeline is production-ready, secure, and compliant for handling sensitive clinical data.
+
+---
 ```
 ```
 ```

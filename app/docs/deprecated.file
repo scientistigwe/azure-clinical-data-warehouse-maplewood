@@ -1,0 +1,32 @@
+# DEPRECATED: This .env file is no longer in use for production.
+# For development, use Azure Key Vault for secrets instead.
+# If Key Vault is unavailable, the script falls back to these values, but this is not recommended for enterprise use.
+# Follow best practices: Store secrets in Key Vault and use Managed Identities.
+
+# Azure AD credentials (use if needed for Blob/Key Vault)
+AZURE_CLIENT_ID=your-dev-client-id
+AZURE_CLIENT_SECRET=your-dev-client-secret
+AZURE_TENANT_ID=your-tenant-id
+
+# Local SQL Server connection (no Key Vault needed for dev)
+SQL_SERVER_CONN_STR=Driver={ODBC Driver 18 for SQL Server};Server=DESKTOP-1PK2BM8\SQLEXPRESS;Database=azure_edw_marplewood;Uid=mercy;Pwd=mercy;
+
+# Blob Storage (use Azurite for local testing)
+BLOB_CONN_STR=DefaultEndpointsProtocol=http;AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==;BlobEndpoint=http://127.0.0.1:10000/devstoreaccount1;
+
+# Key Vault URL (leave as is or set to real if using Azure KV)
+KEY_VAULT_URL=https://kv-maplewood-dev.vault.azure.net/
+
+# Blob container name
+BLOB_CONTAINER=cdc-logs
+
+# Other configs (optional)
+LOG_LEVEL=INFO
+
+# Enable Change Tracking and CDC on the target table
+ALTER DATABASE azure_edw_marplewood SET CHANGE_TRACKING = ON (CHANGE_RETENTION = 2 DAYS, AUTO_CLEANUP = ON);
+ALTER TABLE dbo.sus_episodes ENABLE CHANGE_TRACKING;
+
+USE azure_edw_marplewood;
+EXEC sys.sp_cdc_enable_db;
+EXEC sys.sp_cdc_enable_table @source_schema = 'dbo', @source_name = 'sus_episodes', @role_name = NULL;

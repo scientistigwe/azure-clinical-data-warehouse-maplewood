@@ -53,48 +53,27 @@ Version: 0.1.0
 
 import pandas as pd
 import pyodbc, hashlib, os, json, time, logging
-from azure.identity import DefaultAzureCredential
-from azure.keyvault.secrets import SecretClient
 from azure.storage.blob import BlobServiceClient
+from azure.eventhub import EventHubProducerClient, EventData
 from sqlalchemy import create_engine
-from dotenv import load_dotenv
 
-# Load environment variables from .env.development
-load_dotenv('.env.development')
 
 # Set up logging for ADF integration and error handling
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 # -------------------------------
-# 🔐 1. Retrieve connections from Key Vault
+# 🔐 1. Retrieve connections from environment (set by ADF)
 # -------------------------------
-key_vault_url = os.getenv('KEY_VAULT_URL', "https://<your-key-vault-name>.vault.azure.net/")
-secret_name_sql = "sqlserver-connstr"
-secret_name_blob = "blob-connstr"
+conn_str = os.getenv('SQL_CONN_STR', 'Driver={ODBC Driver 18 for SQL Server};Server=localhost;Database=master;Trusted_Connection=yes;')
+blob_conn_str = os.getenv('BLOB_CONN_STR', 'UseDevelopmentStorage=true;')
+container_name = os.getenv('BLOB_CONTAINER', 'cdc-logs')
+eventhub_conn_str = os.getenv('EVENTHUB_CONN_STR', 'Endpoint=sb://your-namespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=your-key;')
+eventhub_name = os.getenv('EVENTHUB_NAME', 'cdc-events')
 
-credential = DefaultAzureCredential()
-client = SecretClient(vault_url=key_vault_url, credential=credential)
-
-try:
-    secret_sql = client.get_secret(secret_name_sql)
-    conn_str = secret_sql.value
-    logger.info("Retrieved SQL connection string from Key Vault.")
-except Exception as e:
-    logger.warning(f"Key Vault failed for SQL: {e}. Falling back to .env.")
-    conn_str = os.getenv('SQL_SERVER_CONN_STR', 'Driver={ODBC Driver 18 for SQL Server};Server=localhost;Database=master;Trusted_Connection=yes;')
-
-try:
-    secret_blob = client.get_secret(secret_name_blob)
-    blob_conn_str = secret_blob.value
-    blob_service_client = BlobServiceClient.from_connection_string(blob_conn_str)
-    container_name = os.getenv('BLOB_CONTAINER', 'cdc-logs')  # Ensure this container exists
-    logger.info("Retrieved Blob connection and initialized client from Key Vault.")
-except Exception as e:
-    logger.warning(f"Key Vault failed for Blob: {e}. Falling back to .env.")
-    blob_conn_str = os.getenv('BLOB_CONN_STR', 'UseDevelopmentStorage=true;')
-    blob_service_client = BlobServiceClient.from_connection_string(blob_conn_str)
-    container_name = os.getenv('BLOB_CONTAINER', 'cdc-logs')
+# Initialize clients directly
+blob_service_client = BlobServiceClient.from_connection_string(blob_conn_str)
+producer = EventHubProducerClient.from_connection_string(conn_str=eventhub_conn_str, eventhub_name=eventhub_name)
 
 # -------------------------------
 # ⚙️ 2. Table config (name : primary key)
@@ -103,7 +82,13 @@ TABLES = {
     "sus_episodes": "episode_id",
     "social_care": "package_id",
     "prescriptions": "prescription_id",
-    # ... add your remaining 7 tables
+    "patients": "patient_id",
+    "practices": "practice_id",
+    "csds_contacts": "contact_id",
+    "ecds_attendances": "attendance_id",
+    "mhsds_referrals": "referral_id",
+    "patient_journeys": "journey_id",
+    "trusts": "trust_id",
 }
 
 # -------------------------------
@@ -199,6 +184,27 @@ for tbl, pk in TABLES.items():
             log_blob = f"{tbl}_log_{run_summary['run_id']}.json"
             upload_to_blob(log_blob, log_entries)
 
+            # Send change events to Event Hub for real-time processing
+            if producer:
+                try:
+                    event_data_batch = producer.create_batch()
+                    for entry in log_entries:
+                        event_data = EventData(json.dumps(entry))
+                        try:
+                            event_data_batch.add(event_data)
+                        except ValueError:
+                            # Batch is full, send current batch and create new one
+                            producer.send_batch(event_data_batch)
+                            event_data_batch = producer.create_batch()
+                            event_data_batch.add(event_data)
+                    if len(event_data_batch) > 0:
+                        producer.send_batch(event_data_batch)
+                    logger.info(f"Sent {len(log_entries)} change events to Event Hub for {tbl}.")
+                except Exception as e:
+                    logger.error(f"Failed to send events to Event Hub for {tbl}: {e}")
+            else:
+                logger.warning(f"No Event Hub producer available for {tbl}, skipping Event Hub send.")
+
         # Step 6: Update baseline in Blob
         baseline_data = df[["primary_key", "row_hash"]].to_dict(orient="records")
         upload_to_blob(baseline_blob, baseline_data)
@@ -209,6 +215,10 @@ for tbl, pk in TABLES.items():
         logger.error(f"Error processing table {tbl}: {e}")
         run_summary["changes"][tbl] = f"Error: {str(e)}"
         continue
+
+if producer:
+    producer.close()
+    logger.info("Event Hub producer closed.")
 
 # Output summary for ADF integration
 summary_blob = f"cdc_summary_{run_summary['run_id']}.json"

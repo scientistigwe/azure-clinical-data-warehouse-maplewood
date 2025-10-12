@@ -1,0 +1,48 @@
+{
+    "name": "CDC_Pipeline",
+    "properties": {
+        "activities": [
+            {
+                "name": "Run_CDC_Script",
+                "type": "ExecutePython",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "7.00:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "pythonCode": {
+                        "value": "import pandas as pd\nimport pyodbc, hashlib, os, json, time, logging\nfrom azure.storage.blob import BlobServiceClient\nfrom azure.eventhub import EventHubProducerClient, EventData\nfrom sqlalchemy import create_engine\n\nlogging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')\nlogger = logging.getLogger(__name__)\n\nconn_str = os.getenv('SQL_CONN_STR')\nblob_conn_str = os.getenv('BLOB_CONN_STR')\ncontainer_name = os.getenv('BLOB_CONTAINER', 'cdc-logs')\neventhub_conn_str = os.getenv('EVENTHUB_CONN_STR')\neventhub_name = os.getenv('EVENTHUB_NAME', 'cdc-events')\n\nblob_service_client = BlobServiceClient.from_connection_string(blob_conn_str)\nproducer = EventHubProducerClient.from_connection_string(conn_str=eventhub_conn_str, eventhub_name=eventhub_name)\n\nTABLES = {\n    'sus_episodes': 'episode_id',\n    'social_care': 'package_id',\n    'prescriptions': 'prescription_id',\n    'patients': 'patient_id',\n    'practices': 'practice_id',\n    'csds_contacts': 'contact_id',\n    'ecds_attendances': 'attendance_id',\n    'mhsds_referrals': 'referral_id',\n    'patient_journeys': 'journey_id',\n    'trusts': 'trust_id',\n}\n\ndef upload_to_blob(blob_name, data):\n    blob_client = blob_service_client.get_blob_client(container=container_name, blob=blob_name)\n    blob_client.upload_blob(json.dumps(data), overwrite=True)\n    logger.info(f'Uploaded {blob_name}')\n\ndef download_from_blob(blob_name):\n    try:\n        blob_client = blob_service_client.get_blob_client(container=container_name, blob=blob_name)\n        return json.loads(blob_client.download_blob().readall())\n    except:\n        return {}\n\nrun_summary = {'run_id': str(int(time.time())), 'changes': {}}\n\nfor tbl, pk in TABLES.items():\n    logger.info(f'Checking {tbl}')\n    start = time.strftime('%Y-%m-%d %H:%M:%S')\n    changes_logged = 0\n    try:\n        df = pd.read_sql(f'SELECT * FROM dbo.{tbl}', pyodbc.connect(conn_str))\n        if df.empty:\n            continue\n        cols_to_hash = [c for c in df.columns if c.lower() not in ['created_timestamp']]\n        df['row_hash'] = df[cols_to_hash].astype(str).sum(axis=1).apply(lambda x: hashlib.md5(x.encode()).hexdigest())\n        baseline_blob = f'{tbl}_baseline.json'\n        prev_data = download_from_blob(baseline_blob)\n        prev = pd.DataFrame(prev_data) if prev_data else pd.DataFrame(columns=['primary_key', 'row_hash'])\n        df.rename(columns={pk: 'primary_key'}, inplace=True)\n        merged = df.merge(prev, on='primary_key', how='outer', suffixes=('_new', '_old'))\n        inserted = merged[merged['row_hash_old'].isna()]\n        deleted = merged[merged['row_hash_new'].isna()]\n        changed = merged[(~merged['row_hash_old'].isna()) & (merged['row_hash_new'] != merged['row_hash_old'])]\n        log_entries = []\n        for change_type, subset in [('INSERT', inserted), ('DELETE', deleted), ('UPDATE', changed)]:\n            if not subset.empty:\n                count = len(subset)\n                changes_logged += count\n                logger.info(f'  {change_type}: {count}')\n                for _, row in subset.iterrows():\n                    log_entries.append({\n                        'run_id': run_summary['run_id'],\n                        'change_type': change_type,\n                        'primary_key': row['primary_key'],\n                        'row_hash': row['row_hash_new'] if change_type != 'DELETE' else row['row_hash_old'],\n                        'change_time': start\n                    })\n        if log_entries:\n            log_blob = f'{tbl}_log_{run_summary[\"run_id\"]}.json'\n            upload_to_blob(log_blob, log_entries)\n            event_data_batch = producer.create_batch()\n            for entry in log_entries:\n                event_data = EventData(json.dumps(entry))\n                try:\n                    event_data_batch.add(event_data)\n                except ValueError:\n                    producer.send_batch(event_data_batch)\n                    event_data_batch = producer.create_batch()\n                    event_data_batch.add(event_data)\n            if len(event_data_batch) > 0:\n                producer.send_batch(event_data_batch)\n            logger.info(f'Sent {len(log_entries)} to Event Hub')\n        baseline_data = df[['primary_key', 'row_hash']].to_dict(orient='records')\n        upload_to_blob(baseline_blob, baseline_data)\n        run_summary['changes'][tbl] = changes_logged\n    except Exception as e:\n        logger.error(f'Error {tbl}: {e}')\n        run_summary['changes'][tbl] = str(e)\n\nif producer:\n    producer.close()\nsummary_blob = f'cdc_summary_{run_summary[\"run_id\"]}.json'\nupload_to_blob(summary_blob, run_summary)\nprint(json.dumps(run_summary))"
+                    },
+                    "parameters": {
+                        "SQL_CONN_STR": {
+                            "value": "@linkedService().SQL_Server_LS.connectionString",
+                            "type": "Expression"
+                        },
+                        "BLOB_CONN_STR": {
+                            "value": "@linkedService().Blob_Storage_LS.connectionString",
+                            "type": "Expression"
+                        },
+                        "EVENTHUB_CONN_STR": {
+                            "value": "@linkedService().Event_Hub_LS.connectionString",
+                            "type": "Expression"
+                        },
+                        "EVENTHUB_NAME": {
+                            "value": "cdc-events",
+                            "type": "String"
+                        },
+                        "BLOB_CONTAINER": {
+                            "value": "cdc-logs",
+                            "type": "String"
+                        }
+                    }
+                }
+            }
+        ],
+        "annotations": []
+    }
+}
