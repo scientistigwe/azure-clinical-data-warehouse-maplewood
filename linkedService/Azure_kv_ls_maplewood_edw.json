@@ -1,0 +1,11 @@
+{
+	"name": "Azure_kv_ls_maplewood_edw",
+	"properties": {
+		"description": "Azure key vault linked service for maplewood enterprise data warehouse",
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://kv-maplewood-dev.vault.azure.net/"
+		}
+	}
+}
