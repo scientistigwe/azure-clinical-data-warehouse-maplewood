@@ -7,17 +7,17 @@
 		"typeProperties": {
 			"server": "DESKTOP-1PK2BM8\\SQLEXPRESS",
 			"database": "azure_edw_marplewood",
-			"encrypt": "optional",
-			"trustServerCertificate": false,
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
 			"authenticationType": "SQL",
-			"userName": "maplewood-sql-password",
+			"userName": "mercy",
 			"password": {
 				"type": "AzureKeyVaultSecret",
 				"store": {
 					"referenceName": "Azure_kv_ls_maplewood_edw",
 					"type": "LinkedServiceReference"
 				},
-				"secretName": "maplewood-sql-surname"
+				"secretName": "maplewood-sql-password"
 			}
 		},
 		"connectVia": {
