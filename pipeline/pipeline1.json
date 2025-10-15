@@ -19,9 +19,13 @@
 						"referenceName": "Parquet1",
 						"type": "DatasetReference"
 					},
-					"fieldList": [],
+					"fieldList": [
+						"exists",
+						"columnCount"
+					],
 					"storeSettings": {
 						"type": "AzureBlobStorageReadSettings",
+						"recursive": true,
 						"enablePartitionDiscovery": false
 					},
 					"formatSettings": {
