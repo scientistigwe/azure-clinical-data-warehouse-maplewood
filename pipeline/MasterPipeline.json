@@ -31,10 +31,20 @@
 				"userProperties": [],
 				"typeProperties": {
 					"pipeline": {
-						"referenceName": "Maplewood_EDW_Pipeline",
+						"referenceName": "pSendNotification",
 						"type": "PipelineReference"
 					},
-					"waitOnCompletion": true
+					"waitOnCompletion": true,
+					"parameters": {
+						"EmailTo": {
+							"value": "@{pipeline().parameters.Email}",
+							"type": "Expression"
+						},
+						"Subject": "SUCCESS - CWT M2 Published Blob",
+						"ErrorMessage": "SUCCESS - CWT M2 Published Blob",
+						"PipelineName": "001_LoadMaster",
+						"CCEmailTo": "ndukwemercy11@gmail.com"
+					}
 				}
 			},
 			{
@@ -57,6 +67,12 @@
 				}
 			}
 		],
+		"parameters": {
+			"Email": {
+				"type": "string",
+				"defaultValue": "scientistigwe@gmail.com"
+			}
+		},
 		"folder": {
 			"name": "Master Pipeline"
 		},
