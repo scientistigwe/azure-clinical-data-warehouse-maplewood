@@ -1,0 +1,69 @@
+{
+	"name": "Parquet1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MaplewoodAzureBlobStorageLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "titanic.parquet",
+				"container": "cdc-scripts"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "PassengerId",
+				"type": "INT_64"
+			},
+			{
+				"name": "Survived",
+				"type": "INT_64"
+			},
+			{
+				"name": "Pclass",
+				"type": "INT_64"
+			},
+			{
+				"name": "Name",
+				"type": "UTF8"
+			},
+			{
+				"name": "Sex",
+				"type": "UTF8"
+			},
+			{
+				"name": "Age",
+				"type": "DOUBLE"
+			},
+			{
+				"name": "SibSp",
+				"type": "INT_64"
+			},
+			{
+				"name": "Parch",
+				"type": "INT_64"
+			},
+			{
+				"name": "Ticket",
+				"type": "UTF8"
+			},
+			{
+				"name": "Fare",
+				"type": "DOUBLE"
+			},
+			{
+				"name": "Cabin",
+				"type": "UTF8"
+			},
+			{
+				"name": "Embarked",
+				"type": "UTF8"
+			}
+		]
+	}
+}
