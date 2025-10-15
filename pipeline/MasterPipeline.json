@@ -11,6 +11,10 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
+					"pipeline": {
+						"referenceName": "Maplewood_EDW_Pipeline",
+						"type": "PipelineReference"
+					},
 					"waitOnCompletion": true
 				}
 			},
@@ -63,6 +67,10 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
+					"pipeline": {
+						"referenceName": "Maplewood_EDW_Pipeline",
+						"type": "PipelineReference"
+					},
 					"waitOnCompletion": true
 				}
 			}
