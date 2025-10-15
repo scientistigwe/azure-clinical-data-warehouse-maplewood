@@ -19,7 +19,12 @@
 						"referenceName": "Parquet1",
 						"type": "DatasetReference"
 					},
-					"fieldList": [],
+					"fieldList": [
+						"size",
+						"itemName",
+						"columnCount",
+						"structure"
+					],
 					"storeSettings": {
 						"type": "AzureBlobStorageReadSettings",
 						"recursive": true,
