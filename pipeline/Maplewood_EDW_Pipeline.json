@@ -1,40 +1,46 @@
 {
-	"name": "maplewood_EDW_Pipeline",
+	"name": "Maplewood_EDW_Pipeline",
 	"properties": {
-		"activities": [
-			{
-				"name": "CDC_Activity",
-				"type": "Custom",
-				"dependsOn": [],
-				"policy": {
-					"timeout": "0.12:00:00",
-					"retry": 0,
-					"retryIntervalInSeconds": 30,
-					"secureOutput": false,
-					"secureInput": false
-				},
-				"userProperties": [],
-				"typeProperties": {
-					"command": "python python_cdc.py",
-					"resourceLinkedService": {
-						"referenceName": "MaplewoodAzureBlobStorageLS",
-						"type": "LinkedServiceReference"
-					},
-					"folderPath": "cdc-scripts/",
-					"extendedProperties": {
-						"SQL_SERVER": "@linkedService().AzureKeyVault.getSecret('maplewood-sql-server')",
-						"SQL_USERNAME": "@linkedService().AzureKeyVault.getSecret('maplewood-sql-username')",
-						"SQL_DATABASE": "@linkedService().AzureKeyVault.getSecret('maplewood-sql-db')",
-						"SQL_PASSWORD": "@L",
-						"EVENT_HUB_CONNECTION_STRING": "@linkedService().AzureKeyVault.getSecret('event-hub-connection-string')"
-					},
-					"referenceObjects": {
-						"linkedServices": [],
-						"datasets": []
-					}
-				}
+		"parameters": {
+			"EmailTo": {
+				"type": "string",
+				"defaultValue": "@pipeline().parameters.Email"
 			}
-		],
+		},
+		"folder": {
+			"name": "Master Pipeline"
+		},
 		"annotations": []
+	},
+	"type": "Custom",
+	"policy": {
+		"timeout": "0.12:00:00",
+		"retry": 0,
+		"retryIntervalInSeconds": 30,
+		"secureOutput": false,
+		"secureInput": false
+	},
+	"typeProperties": {
+		"command": "python python_cdc.py",
+		"resourceLinkedService": {
+			"referenceName": "MaplewoodAzureBlobStorageLS",
+			"type": "LinkedServiceReference"
+		},
+		"folderPath": "cdc-scripts/",
+		"extendedProperties": {
+			"SQL_SERVER": "@linkedService().AzureKeyVault.getSecret('maplewood-sql-server')",
+			"SQL_USERNAME": "@linkedService().AzureKeyVault.getSecret('maplewood-sql-username')",
+			"SQL_DATABASE": "@linkedService().AzureKeyVault.getSecret('maplewood-sql-db')",
+			"SQL_PASSWORD": "@linkedService().AzureKeyVault.getSecret('maplewood-sql-password')",
+			"EVENT_HUB_CONNECTION_STRING": "@linkedService().AzureKeyVault.getSecret('event-hub-connection-string')"
+		},
+		"referenceObjects": {
+			"linkedServices": [],
+			"datasets": []
+		}
+	},
+	"connectVia": {
+		"referenceName": "SHIR-maplewood-edw",
+		"type": "IntegrationRuntimeReference"
 	}
 }

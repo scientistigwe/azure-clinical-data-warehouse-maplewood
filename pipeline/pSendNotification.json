@@ -1,0 +1,57 @@
+{
+	"name": "pSendNotification",
+	"properties": {
+		"activities": [
+			{
+				"name": "Send Email",
+				"type": "WebActivity",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"method": "POST",
+					"headers": {
+						"Content-Type": "application/json"
+					},
+					"url": "https://prod-01.ukwest.logic.azure.com:443/workflows/cd10139aaba24a4c8a0a249ec0bc14e7/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=rOOd0P8_TFRJj_oixOJN5vZTwwsOaDfvxZ7Z84oMR5Y",
+					"body": {
+						"value": "{\n\"DataFactoryName\":\"@{pipeline().DataFactory}\",\"PipelineName\":\"@{pipeline().Pipeline}\",\"Subject\":\"@{pipeline().parameters.Subject}\",\"ErrorMessage\":\"@{pipeline().parameters.ErrorMessage}\",\"EmailTo\":\"@{pipeline().parameters.EmailTo}\",\"CCEmailTo\":\"@{pipeline().parameters.CCEmailTo}\"\n}",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"parameters": {
+			"EmailTo": {
+				"type": "string",
+				"defaultValue": "scientistigwe@gmail.com"
+			},
+			"Subject": {
+				"type": "string",
+				"defaultValue": "Test"
+			},
+			"ErrorMessage": {
+				"type": "string",
+				"defaultValue": "Test"
+			},
+			"PipelineName": {
+				"type": "string",
+				"defaultValue": "Test"
+			},
+			"CCEmailTo": {
+				"type": "string",
+				"defaultValue": "scientistigwe@gmail.com"
+			}
+		},
+		"folder": {
+			"name": "Notification"
+		},
+		"annotations": []
+	}
+}
